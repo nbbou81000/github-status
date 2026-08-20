@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T20:36:21.753Z",
+  "generated_at": "2026-08-20T20:40:39.597Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5769,6 +5769,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are seeing gradual recovery in Copilot Cloud Agent task status visibility as we deploy a fix for the root cause. Session output remains delayed by approximately one hour while remediation continues.",
+          "created_at": "2026-08-20T20:37:06.155Z",
+          "time_label": "20:37 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
