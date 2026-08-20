@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T15:40:44.294Z",
+  "generated_at": "2026-08-20T15:50:39.451Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5741,8 +5741,8 @@
     {
       "id": "bhbcjn4n3jzp",
       "name": "Intermittent failures creating agent tasks",
-      "impact": "minor",
-      "status_class": "deg",
+      "impact": "critical",
+      "status_class": "maj",
       "created_at": "2026-08-20T14:43:01.531Z",
       "started_label": "2026-08-20 · depuis 14:43 UTC",
       "affected_component_ids": [],
@@ -5769,6 +5769,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are experiencing issues with Copilot Cloud Agent tasks, resulting in newly started tasks not properly displaying on-going progress. These Copilot Cloud Agent tasks are still being completed correctly but lack proper visibility. We are actively investigating the issue and will provide updates as we learn more.",
+          "created_at": "2026-08-20T15:41:11.771Z",
+          "time_label": "15:41 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
