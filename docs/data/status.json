@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24T14:20:45.969Z",
+  "generated_at": "2026-08-24T14:30:56.614Z",
   "overall": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   },
   "components": [
     {
@@ -2614,8 +2614,8 @@
       "id": "br0l2tvcx85d",
       "name": "Actions",
       "short_name": "Actions",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-08-18",
@@ -5752,17 +5752,17 @@
         {
           "name": "investigating",
           "label": "Investigating",
-          "state": "now"
+          "state": "done"
         },
         {
           "name": "identified",
           "label": "Identified",
-          "state": "pending"
+          "state": "done"
         },
         {
           "name": "monitoring",
           "label": "Monitoring",
-          "state": "pending"
+          "state": "now"
         },
         {
           "name": "resolved",
@@ -5771,6 +5771,20 @@
         }
       ],
       "updates": [
+        {
+          "status": "monitoring",
+          "status_label": "Monitoring",
+          "body": "The degradation affecting Actions has been mitigated. We are monitoring to ensure stability.",
+          "created_at": "2026-08-24T14:26:11.194Z",
+          "time_label": "14:26 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Failures while queuing and running Actions jobs for a subset of customers are now resolving. We are monitoring for full recovery.",
+          "created_at": "2026-08-24T14:22:59.979Z",
+          "time_label": "14:22 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
