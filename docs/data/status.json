@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24T07:50:44.648Z",
+  "generated_at": "2026-08-24T08:01:11.943Z",
   "overall": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   },
   "components": [
     {
@@ -5219,8 +5219,8 @@
       "id": "cnnb39dkkk82",
       "name": "Copilot AI Model Providers",
       "short_name": "Copilot Models",
-      "status_class": "part",
-      "status_label": "Partiel",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-08-18",
@@ -5737,56 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "wt3hjqcrczfg",
-      "name": "Elevated errors on Fable 5 due to upstream provider",
-      "impact": "major",
-      "status_class": "part",
-      "created_at": "2026-08-24T07:12:05.373Z",
-      "started_label": "2026-08-24 · depuis 07:12 UTC",
-      "affected_component_ids": [
-        "cnnb39dkkk82"
-      ],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "now"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "pending"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "pending"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are experiencing degraded availability for the Fable model in Copilot products and IDE surfaces. This is due to an issue with the upstream model provider. While we work with them to resolve the issue, we recommend choosing another model or selecting 'Auto' to continue using Copilot.",
-          "created_at": "2026-08-24T07:12:33.362Z",
-          "time_label": "07:12 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of degraded availability for Copilot AI Model Providers",
-          "created_at": "2026-08-24T07:12:05.431Z",
-          "time_label": "07:12 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
