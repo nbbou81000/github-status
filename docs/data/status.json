@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T16:05:42.997Z",
+  "generated_at": "2026-08-26T16:10:47.094Z",
   "overall": {
     "indicator": "major",
     "description": "Partial System Outage"
@@ -5799,46 +5799,6 @@
           "body": "We are investigating reports of degraded availability for Actions",
           "created_at": "2026-08-26T15:11:58.307Z",
           "time_label": "15:11 UTC"
-        }
-      ]
-    },
-    {
-      "id": "hcbtzksccj2f",
-      "name": "Disruption with some GitHub services",
-      "impact": "minor",
-      "status_class": "deg",
-      "created_at": "2026-08-26T15:09:03.575Z",
-      "started_label": "2026-08-26 · depuis 15:09 UTC",
-      "affected_component_ids": [],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "now"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "pending"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "pending"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of impacted performance for some GitHub services.",
-          "created_at": "2026-08-26T15:09:03.607Z",
-          "time_label": "15:09 UTC"
         }
       ]
     }
