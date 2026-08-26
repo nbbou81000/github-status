@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T23:30:59.745Z",
+  "generated_at": "2026-08-26T23:40:42.238Z",
   "overall": {
     "indicator": "minor",
     "description": "Partially Degraded Service"
@@ -4466,7 +4466,7 @@
         },
         {
           "date": "2026-07-01",
-          "class": "deg"
+          "class": "op"
         },
         {
           "date": "2026-07-02",
@@ -5738,6 +5738,46 @@
     }
   ],
   "incidents": [
+    {
+      "id": "5bn0vk444m1w",
+      "name": "Disruption with GitHub Billing",
+      "impact": "minor",
+      "status_class": "deg",
+      "created_at": "2026-08-26T23:37:20.579Z",
+      "started_label": "2026-08-26 · depuis 23:37 UTC",
+      "affected_component_ids": [],
+      "steps": [
+        {
+          "name": "investigating",
+          "label": "Investigating",
+          "state": "now"
+        },
+        {
+          "name": "identified",
+          "label": "Identified",
+          "state": "pending"
+        },
+        {
+          "name": "monitoring",
+          "label": "Monitoring",
+          "state": "pending"
+        },
+        {
+          "name": "resolved",
+          "label": "Resolved",
+          "state": "pending"
+        }
+      ],
+      "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating reports of impacted performance for some GitHub services.",
+          "created_at": "2026-08-26T23:37:20.628Z",
+          "time_label": "23:37 UTC"
+        }
+      ]
+    },
     {
       "id": "kfspvrz14xr0",
       "name": "Incident with Actions and Pull Requests",
