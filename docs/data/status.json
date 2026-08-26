@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-26T22:50:49.994Z",
+  "generated_at": "2026-08-26T23:01:08.462Z",
   "overall": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   },
   "components": [
     {
@@ -2093,8 +2093,8 @@
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
       "short_name": "Pull Req.",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-08-20",
@@ -2122,7 +2122,7 @@
         },
         {
           "date": "2026-08-26",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_30": [
@@ -2244,7 +2244,7 @@
         },
         {
           "date": "2026-08-26",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_90": [
@@ -2606,7 +2606,7 @@
         },
         {
           "date": "2026-08-26",
-          "class": "op"
+          "class": "deg"
         }
       ]
     },
@@ -2614,8 +2614,8 @@
       "id": "br0l2tvcx85d",
       "name": "Actions",
       "short_name": "Actions",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-08-20",
@@ -5737,6 +5737,50 @@
       ]
     }
   ],
-  "incidents": [],
-  "has_active_incident": false
+  "incidents": [
+    {
+      "id": "kfspvrz14xr0",
+      "name": "Incident with Actions and Pull Requests",
+      "impact": "minor",
+      "status_class": "deg",
+      "created_at": "2026-08-26T22:56:31.800Z",
+      "started_label": "2026-08-26 · depuis 22:56 UTC",
+      "affected_component_ids": [
+        "hhtssxt0f5v2",
+        "br0l2tvcx85d"
+      ],
+      "steps": [
+        {
+          "name": "investigating",
+          "label": "Investigating",
+          "state": "now"
+        },
+        {
+          "name": "identified",
+          "label": "Identified",
+          "state": "pending"
+        },
+        {
+          "name": "monitoring",
+          "label": "Monitoring",
+          "state": "pending"
+        },
+        {
+          "name": "resolved",
+          "label": "Resolved",
+          "state": "pending"
+        }
+      ],
+      "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating reports of degraded performance for Actions and Pull Requests",
+          "created_at": "2026-08-26T22:56:31.878Z",
+          "time_label": "22:56 UTC"
+        }
+      ]
+    }
+  ],
+  "has_active_incident": true
 }
