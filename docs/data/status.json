@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T18:01:13.233Z",
+  "generated_at": "2026-08-26T18:10:42.483Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5737,106 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "y1t7p9fzrlj2",
-      "name": "Incident with Actions",
-      "impact": "critical",
-      "status_class": "maj",
-      "created_at": "2026-08-26T15:11:58.254Z",
-      "started_label": "2026-08-26 · depuis 15:11 UTC",
-      "affected_component_ids": [
-        "br0l2tvcx85d",
-        "vg70hn9s2tyj"
-      ],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "done"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "done"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "now"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "monitoring",
-          "status_label": "Monitoring",
-          "body": "The degradation affecting Actions has been mitigated. We are monitoring to ensure stability.",
-          "created_at": "2026-08-26T17:54:33.454Z",
-          "time_label": "17:54 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are continuing to observe recovery and expect actions inbound queues to be back to normal in <30min. Work will continue to flow through the system subject to per-customer concurrency limits.",
-          "created_at": "2026-08-26T17:32:22.120Z",
-          "time_label": "17:32 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are continuing to observe recovery and delayed queues are burning down. Some customers will continue to see increased delays until all throttled work has been completed - we expect this within the next hour.",
-          "created_at": "2026-08-26T16:50:28.428Z",
-          "time_label": "16:50 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Pages is operating normally.",
-          "created_at": "2026-08-26T16:49:07.342Z",
-          "time_label": "16:49 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We believe we've identified and addressed the issue and are ramping traffic back up slowly to ensure it doesn't recur. Some customers will continue to see delays as we ramp up.",
-          "created_at": "2026-08-26T16:14:16.981Z",
-          "time_label": "16:14 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "primary failover briefly improved performance but did not fully mitigate, we've throttled inbound traffic and are investigating upstream Vitess issues",
-          "created_at": "2026-08-26T15:48:07.385Z",
-          "time_label": "15:48 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We've identified an issue with a database primary and are failing over to a replica immediately",
-          "created_at": "2026-08-26T15:23:10.599Z",
-          "time_label": "15:23 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Pages is experiencing degraded performance. We are continuing to investigate.",
-          "created_at": "2026-08-26T15:12:21.306Z",
-          "time_label": "15:12 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of degraded availability for Actions",
-          "created_at": "2026-08-26T15:11:58.307Z",
-          "time_label": "15:11 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
