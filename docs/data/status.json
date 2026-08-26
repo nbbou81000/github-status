@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T23:40:42.238Z",
+  "generated_at": "2026-08-26T23:50:44.467Z",
   "overall": {
     "indicator": "minor",
     "description": "Partially Degraded Service"
@@ -5769,6 +5769,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are currently investigating increased errors with billing services. Customers may observe failed billing budget page loads, and users of the Copilot CLI may observe failures starting or continuing sessions.",
+          "created_at": "2026-08-26T23:42:06.271Z",
+          "time_label": "23:42 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
