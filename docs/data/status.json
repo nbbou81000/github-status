@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T01:30:56.482Z",
+  "generated_at": "2026-08-27T01:40:44.131Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5769,6 +5769,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are continuing to monitor the mitigation that we have applied for the billing page disruption.",
+          "created_at": "2026-08-27T01:35:35.233Z",
+          "time_label": "01:35 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
