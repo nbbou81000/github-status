@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-27T10:01:19.833Z",
+  "generated_at": "2026-08-27T10:10:48.691Z",
   "overall": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   },
   "components": [
     {
@@ -3945,7 +3945,7 @@
         },
         {
           "date": "2026-07-02",
-          "class": "deg"
+          "class": "op"
         },
         {
           "date": "2026-07-03",
@@ -5219,8 +5219,8 @@
       "id": "cnnb39dkkk82",
       "name": "Copilot AI Model Providers",
       "short_name": "Copilot Models",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "maj",
+      "status_label": "Majeur",
       "history_7": [
         {
           "date": "2026-08-21",
@@ -5248,7 +5248,7 @@
         },
         {
           "date": "2026-08-27",
-          "class": "op"
+          "class": "maj"
         }
       ],
       "history_30": [
@@ -5370,7 +5370,7 @@
         },
         {
           "date": "2026-08-27",
-          "class": "op"
+          "class": "maj"
         }
       ],
       "history_90": [
@@ -5732,12 +5732,54 @@
         },
         {
           "date": "2026-08-27",
-          "class": "op"
+          "class": "maj"
         }
       ]
     }
   ],
   "incidents": [
+    {
+      "id": "tx9qn4khd664",
+      "name": "Incident with Copilot AI Model Providers",
+      "impact": "critical",
+      "status_class": "maj",
+      "created_at": "2026-08-27T10:04:52.529Z",
+      "started_label": "2026-08-27 · depuis 10:04 UTC",
+      "affected_component_ids": [
+        "cnnb39dkkk82"
+      ],
+      "steps": [
+        {
+          "name": "investigating",
+          "label": "Investigating",
+          "state": "now"
+        },
+        {
+          "name": "identified",
+          "label": "Identified",
+          "state": "pending"
+        },
+        {
+          "name": "monitoring",
+          "label": "Monitoring",
+          "state": "pending"
+        },
+        {
+          "name": "resolved",
+          "label": "Resolved",
+          "state": "pending"
+        }
+      ],
+      "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating reports of degraded availability for Copilot AI Model Providers",
+          "created_at": "2026-08-27T10:04:52.621Z",
+          "time_label": "10:04 UTC"
+        }
+      ]
+    },
     {
       "id": "5bn0vk444m1w",
       "name": "Disruption with GitHub Billing",
