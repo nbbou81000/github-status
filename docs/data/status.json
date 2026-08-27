@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-27T00:20:45.552Z",
+  "generated_at": "2026-08-27T00:30:54.662Z",
   "overall": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   },
   "components": [
     {
@@ -2093,8 +2093,8 @@
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
       "short_name": "Pull Req.",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-08-21",
@@ -2614,8 +2614,8 @@
       "id": "br0l2tvcx85d",
       "name": "Actions",
       "short_name": "Actions",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-08-21",
@@ -5738,63 +5738,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "kfspvrz14xr0",
-      "name": "Incident with Actions and Pull Requests",
-      "impact": "minor",
-      "status_class": "deg",
-      "created_at": "2026-08-26T22:56:31.800Z",
-      "started_label": "2026-08-26 · depuis 22:56 UTC",
-      "affected_component_ids": [
-        "hhtssxt0f5v2",
-        "br0l2tvcx85d"
-      ],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "now"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "pending"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "pending"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We've applied mitigations and are seeing recovery in Actions workflow runs and blocked pull request merges. We're continuing to monitor for sustained health of merge commit creates before resolving.",
-          "created_at": "2026-08-27T00:01:05.905Z",
-          "time_label": "00:01 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating elevated delays and timeouts affecting Actions workflow runs triggered by pull request events. 20% of actions runs have delayed starts of more than 5 minutes and up to 4% of runs failed to trigger. We are actively working on mitigation and will provide updates as we learn more.",
-          "created_at": "2026-08-26T22:57:08.551Z",
-          "time_label": "22:57 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of degraded performance for Actions and Pull Requests",
-          "created_at": "2026-08-26T22:56:31.878Z",
-          "time_label": "22:56 UTC"
-        }
-      ]
-    },
     {
       "id": "5bn0vk444m1w",
       "name": "Disruption with GitHub Billing",
