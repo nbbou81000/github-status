@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T10:40:48.061Z",
+  "generated_at": "2026-08-27T10:50:43.957Z",
   "overall": {
     "indicator": "major",
     "description": "Partial System Outage"
@@ -5771,6 +5771,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are experiencing degraded availability for the Kimi K3 model in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to resolve the issue, we recommend choosing another model or selecting 'Auto' to continue using Copilot.",
+          "created_at": "2026-08-27T10:43:00.946Z",
+          "time_label": "10:43 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
