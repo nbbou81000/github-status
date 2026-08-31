@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-31T09:50:54.229Z",
+  "generated_at": "2026-08-31T10:01:20.414Z",
   "overall": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   },
   "components": [
     {
@@ -5219,8 +5219,8 @@
       "id": "cnnb39dkkk82",
       "name": "Copilot AI Model Providers",
       "short_name": "Copilot Models",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-08-25",
@@ -5737,63 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "7fxts6gmq5gr",
-      "name": "Elevated rate of errors for OpenAI models provided by Copilot",
-      "impact": "minor",
-      "status_class": "deg",
-      "created_at": "2026-08-31T09:15:48.908Z",
-      "started_label": "2026-08-31 · depuis 09:15 UTC",
-      "affected_component_ids": [
-        "cnnb39dkkk82"
-      ],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "now"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "pending"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "pending"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "One of our model providers has confirmed an incident on their end. We have provided them details to help identify the issue. We are starting to see recovery.",
-          "created_at": "2026-08-31T09:48:12.092Z",
-          "time_label": "09:48 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Copilot is experiencing a higher rate of errors for OpenAI models, including gpt-5.2, gpt-5.3-codex, gpt-5.4, gpt-5.4, and the gpt-5.6 family of models. Other models are not impacted. <br />",
-          "created_at": "2026-08-31T09:22:18.980Z",
-          "time_label": "09:22 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of degraded performance for Copilot AI Model Providers",
-          "created_at": "2026-08-31T09:15:48.981Z",
-          "time_label": "09:15 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
