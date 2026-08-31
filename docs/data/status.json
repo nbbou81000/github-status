@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-31T09:10:49.659Z",
+  "generated_at": "2026-08-31T09:20:48.951Z",
   "overall": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   },
   "components": [
     {
@@ -2907,7 +2907,7 @@
         },
         {
           "date": "2026-07-07",
-          "class": "part"
+          "class": "op"
         },
         {
           "date": "2026-07-08",
@@ -4991,7 +4991,7 @@
         },
         {
           "date": "2026-07-07",
-          "class": "part"
+          "class": "op"
         },
         {
           "date": "2026-07-08",
@@ -5219,8 +5219,8 @@
       "id": "cnnb39dkkk82",
       "name": "Copilot AI Model Providers",
       "short_name": "Copilot Models",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-08-25",
@@ -5248,7 +5248,7 @@
         },
         {
           "date": "2026-08-31",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_30": [
@@ -5370,7 +5370,7 @@
         },
         {
           "date": "2026-08-31",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_90": [
@@ -5732,11 +5732,54 @@
         },
         {
           "date": "2026-08-31",
-          "class": "op"
+          "class": "deg"
         }
       ]
     }
   ],
-  "incidents": [],
-  "has_active_incident": false
+  "incidents": [
+    {
+      "id": "7fxts6gmq5gr",
+      "name": "Elevated rate of errors for OpenAI models provided by Copilot",
+      "impact": "minor",
+      "status_class": "deg",
+      "created_at": "2026-08-31T09:15:48.908Z",
+      "started_label": "2026-08-31 · depuis 09:15 UTC",
+      "affected_component_ids": [
+        "cnnb39dkkk82"
+      ],
+      "steps": [
+        {
+          "name": "investigating",
+          "label": "Investigating",
+          "state": "now"
+        },
+        {
+          "name": "identified",
+          "label": "Identified",
+          "state": "pending"
+        },
+        {
+          "name": "monitoring",
+          "label": "Monitoring",
+          "state": "pending"
+        },
+        {
+          "name": "resolved",
+          "label": "Resolved",
+          "state": "pending"
+        }
+      ],
+      "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating reports of degraded performance for Copilot AI Model Providers",
+          "created_at": "2026-08-31T09:15:48.981Z",
+          "time_label": "09:15 UTC"
+        }
+      ]
+    }
+  ],
+  "has_active_incident": true
 }
