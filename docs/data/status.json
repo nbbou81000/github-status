@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T09:20:48.951Z",
+  "generated_at": "2026-08-31T09:31:10.831Z",
   "overall": {
     "indicator": "minor",
     "description": "Partially Degraded Service"
@@ -5771,6 +5771,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Copilot is experiencing a higher rate of errors for OpenAI models, including gpt-5.2, gpt-5.3-codex, gpt-5.4, gpt-5.4, and the gpt-5.6 family of models. Other models are not impacted. <br />",
+          "created_at": "2026-08-31T09:22:18.980Z",
+          "time_label": "09:22 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
