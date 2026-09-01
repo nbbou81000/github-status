@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-01T14:50:50.252Z",
+  "generated_at": "2026-09-01T15:10:50.476Z",
   "overall": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   },
   "components": [
     {
@@ -2093,8 +2093,8 @@
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
       "short_name": "Pull Req.",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-08-26",
@@ -2122,7 +2122,7 @@
         },
         {
           "date": "2026-09-01",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_30": [
@@ -2244,7 +2244,7 @@
         },
         {
           "date": "2026-09-01",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_90": [
@@ -2606,7 +2606,7 @@
         },
         {
           "date": "2026-09-01",
-          "class": "op"
+          "class": "deg"
         }
       ]
     },
@@ -2911,7 +2911,7 @@
         },
         {
           "date": "2026-07-09",
-          "class": "maj"
+          "class": "op"
         },
         {
           "date": "2026-07-10",
@@ -3953,7 +3953,7 @@
         },
         {
           "date": "2026-07-09",
-          "class": "maj"
+          "class": "op"
         },
         {
           "date": "2026-07-10",
@@ -5737,6 +5737,56 @@
       ]
     }
   ],
-  "incidents": [],
-  "has_active_incident": false
+  "incidents": [
+    {
+      "id": "jk2dy5h9yp3m",
+      "name": "Delays in commit processing",
+      "impact": "minor",
+      "status_class": "deg",
+      "created_at": "2026-09-01T15:00:22.104Z",
+      "started_label": "2026-09-01 · depuis 15:00 UTC",
+      "affected_component_ids": [
+        "hhtssxt0f5v2"
+      ],
+      "steps": [
+        {
+          "name": "investigating",
+          "label": "Investigating",
+          "state": "now"
+        },
+        {
+          "name": "identified",
+          "label": "Identified",
+          "state": "pending"
+        },
+        {
+          "name": "monitoring",
+          "label": "Monitoring",
+          "state": "pending"
+        },
+        {
+          "name": "resolved",
+          "label": "Resolved",
+          "state": "pending"
+        }
+      ],
+      "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Diffs in the PR view may be stale for several minutes. We are investigating and scaling up resources.",
+          "created_at": "2026-09-01T15:00:46.084Z",
+          "time_label": "15:00 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating reports of degraded performance for Pull Requests",
+          "created_at": "2026-09-01T15:00:22.181Z",
+          "time_label": "15:00 UTC"
+        }
+      ]
+    }
+  ],
+  "has_active_incident": true
 }
