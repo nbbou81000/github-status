@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-03T17:10:45.303Z",
+  "generated_at": "2026-09-03T17:20:48.879Z",
   "overall": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   },
   "components": [
     {
@@ -5219,8 +5219,8 @@
       "id": "cnnb39dkkk82",
       "name": "Copilot AI Model Providers",
       "short_name": "Copilot Models",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-08-28",
@@ -5737,63 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "ktdr5t0xwnhp",
-      "name": "Incident with Grok Copilot AI Model Provider",
-      "impact": "minor",
-      "status_class": "deg",
-      "created_at": "2026-09-03T14:17:27.485Z",
-      "started_label": "2026-09-03 · depuis 14:17 UTC",
-      "affected_component_ids": [
-        "cnnb39dkkk82"
-      ],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "now"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "pending"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "pending"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "The Grok 4.5 model has degraded availability as well. We are working with the upstream provider to resolve the issue.",
-          "created_at": "2026-09-03T14:22:44.366Z",
-          "time_label": "14:22 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are experiencing degraded availability for the Grok 4.6 model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br />",
-          "created_at": "2026-09-03T14:20:35.378Z",
-          "time_label": "14:20 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of degraded performance for Copilot AI Model Providers",
-          "created_at": "2026-09-03T14:17:27.565Z",
-          "time_label": "14:17 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
