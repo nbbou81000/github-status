@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-13T10:40:43.780Z",
+  "generated_at": "2026-09-13T10:50:42.792Z",
   "overall": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   },
   "components": [
     {
@@ -1051,8 +1051,8 @@
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
       "short_name": "API Req.",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-09-07",
@@ -1572,8 +1572,8 @@
       "id": "kr09ddfgbfsf",
       "name": "Issues",
       "short_name": "Issues",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-09-07",
@@ -2093,8 +2093,8 @@
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
       "short_name": "Pull Req.",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-09-07",
@@ -2614,8 +2614,8 @@
       "id": "br0l2tvcx85d",
       "name": "Actions",
       "short_name": "Actions",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-09-07",
@@ -3656,8 +3656,8 @@
       "id": "vg70hn9s2tyj",
       "name": "Pages",
       "short_name": "Pages",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-09-07",
@@ -5737,81 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "0rn90wk115q9",
-      "name": "Incident with several GitHub Services",
-      "impact": "critical",
-      "status_class": "maj",
-      "created_at": "2026-09-13T09:16:11.480Z",
-      "started_label": "2026-09-13 · depuis 09:16 UTC",
-      "affected_component_ids": [
-        "brv1bkgrwx7q",
-        "kr09ddfgbfsf",
-        "hhtssxt0f5v2",
-        "br0l2tvcx85d",
-        "vg70hn9s2tyj"
-      ],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "now"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "pending"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "pending"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Pull Requests is experiencing degraded performance. We are continuing to investigate.",
-          "created_at": "2026-09-13T10:28:45.961Z",
-          "time_label": "10:28 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We have reduced load on this cluster with internal load-shedding and are seeing signs of recovery but continue to monitor",
-          "created_at": "2026-09-13T10:26:55.219Z",
-          "time_label": "10:26 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We're seeing increased database replication delays on collab which is causing increased error rates in authorization endpoints and follow-on increased error rates across the system - we are investigating",
-          "created_at": "2026-09-13T09:36:23.221Z",
-          "time_label": "09:36 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Actions is experiencing degraded performance. We are continuing to investigate.",
-          "created_at": "2026-09-13T09:25:56.000Z",
-          "time_label": "09:25 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of degraded availability for API Requests, Issues, Pages and Pull Requests",
-          "created_at": "2026-09-13T09:16:11.624Z",
-          "time_label": "09:16 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
