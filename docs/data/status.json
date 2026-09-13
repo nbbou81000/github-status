@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-13T10:20:45.851Z",
+  "generated_at": "2026-09-13T10:31:01.333Z",
   "overall": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   },
   "components": [
     {
@@ -2093,8 +2093,8 @@
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
       "short_name": "Pull Req.",
-      "status_class": "maj",
-      "status_label": "Majeur",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-09-07",
@@ -5775,6 +5775,20 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Pull Requests is experiencing degraded performance. We are continuing to investigate.",
+          "created_at": "2026-09-13T10:28:45.961Z",
+          "time_label": "10:28 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We have reduced load on this cluster with internal load-shedding and are seeing signs of recovery but continue to monitor",
+          "created_at": "2026-09-13T10:26:55.219Z",
+          "time_label": "10:26 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
