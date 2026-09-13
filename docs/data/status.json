@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-13T08:40:44.265Z",
+  "generated_at": "2026-09-13T09:32:20.741Z",
   "overall": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   },
   "components": [
     {
@@ -1051,8 +1051,8 @@
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
       "short_name": "API Req.",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-09-07",
@@ -1080,7 +1080,7 @@
         },
         {
           "date": "2026-09-13",
-          "class": "op"
+          "class": "maj"
         }
       ],
       "history_30": [
@@ -1202,7 +1202,7 @@
         },
         {
           "date": "2026-09-13",
-          "class": "op"
+          "class": "maj"
         }
       ],
       "history_90": [
@@ -1564,7 +1564,7 @@
         },
         {
           "date": "2026-09-13",
-          "class": "op"
+          "class": "maj"
         }
       ]
     },
@@ -1572,8 +1572,8 @@
       "id": "kr09ddfgbfsf",
       "name": "Issues",
       "short_name": "Issues",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-09-07",
@@ -1601,7 +1601,7 @@
         },
         {
           "date": "2026-09-13",
-          "class": "op"
+          "class": "maj"
         }
       ],
       "history_30": [
@@ -1723,7 +1723,7 @@
         },
         {
           "date": "2026-09-13",
-          "class": "op"
+          "class": "maj"
         }
       ],
       "history_90": [
@@ -2085,7 +2085,7 @@
         },
         {
           "date": "2026-09-13",
-          "class": "op"
+          "class": "maj"
         }
       ]
     },
@@ -2093,8 +2093,8 @@
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
       "short_name": "Pull Req.",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "maj",
+      "status_label": "Majeur",
       "history_7": [
         {
           "date": "2026-09-07",
@@ -2122,7 +2122,7 @@
         },
         {
           "date": "2026-09-13",
-          "class": "op"
+          "class": "maj"
         }
       ],
       "history_30": [
@@ -2244,7 +2244,7 @@
         },
         {
           "date": "2026-09-13",
-          "class": "op"
+          "class": "maj"
         }
       ],
       "history_90": [
@@ -2606,7 +2606,7 @@
         },
         {
           "date": "2026-09-13",
-          "class": "op"
+          "class": "maj"
         }
       ]
     },
@@ -2614,8 +2614,8 @@
       "id": "br0l2tvcx85d",
       "name": "Actions",
       "short_name": "Actions",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-09-07",
@@ -2643,7 +2643,7 @@
         },
         {
           "date": "2026-09-13",
-          "class": "op"
+          "class": "maj"
         }
       ],
       "history_30": [
@@ -2765,7 +2765,7 @@
         },
         {
           "date": "2026-09-13",
-          "class": "op"
+          "class": "maj"
         }
       ],
       "history_90": [
@@ -3127,7 +3127,7 @@
         },
         {
           "date": "2026-09-13",
-          "class": "op"
+          "class": "maj"
         }
       ]
     },
@@ -3656,8 +3656,8 @@
       "id": "vg70hn9s2tyj",
       "name": "Pages",
       "short_name": "Pages",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-09-07",
@@ -3685,7 +3685,7 @@
         },
         {
           "date": "2026-09-13",
-          "class": "op"
+          "class": "maj"
         }
       ],
       "history_30": [
@@ -3807,7 +3807,7 @@
         },
         {
           "date": "2026-09-13",
-          "class": "op"
+          "class": "maj"
         }
       ],
       "history_90": [
@@ -4169,7 +4169,7 @@
         },
         {
           "date": "2026-09-13",
-          "class": "op"
+          "class": "maj"
         }
       ]
     },
@@ -5737,6 +5737,60 @@
       ]
     }
   ],
-  "incidents": [],
-  "has_active_incident": false
+  "incidents": [
+    {
+      "id": "0rn90wk115q9",
+      "name": "Incident with several GitHub Services",
+      "impact": "critical",
+      "status_class": "maj",
+      "created_at": "2026-09-13T09:16:11.480Z",
+      "started_label": "2026-09-13 · depuis 09:16 UTC",
+      "affected_component_ids": [
+        "brv1bkgrwx7q",
+        "kr09ddfgbfsf",
+        "hhtssxt0f5v2",
+        "br0l2tvcx85d",
+        "vg70hn9s2tyj"
+      ],
+      "steps": [
+        {
+          "name": "investigating",
+          "label": "Investigating",
+          "state": "now"
+        },
+        {
+          "name": "identified",
+          "label": "Identified",
+          "state": "pending"
+        },
+        {
+          "name": "monitoring",
+          "label": "Monitoring",
+          "state": "pending"
+        },
+        {
+          "name": "resolved",
+          "label": "Resolved",
+          "state": "pending"
+        }
+      ],
+      "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Actions is experiencing degraded performance. We are continuing to investigate.",
+          "created_at": "2026-09-13T09:25:56.000Z",
+          "time_label": "09:25 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating reports of degraded availability for API Requests, Issues, Pages and Pull Requests",
+          "created_at": "2026-09-13T09:16:11.624Z",
+          "time_label": "09:16 UTC"
+        }
+      ]
+    }
+  ],
+  "has_active_incident": true
 }
