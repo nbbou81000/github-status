@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T19:31:00.138Z",
+  "generated_at": "2026-09-14T19:40:42.575Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5737,54 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "kzh5j0mt7qwc",
-      "name": "Actions Larger Runner Jobs for some customers may be slow to start",
-      "impact": "minor",
-      "status_class": "deg",
-      "created_at": "2026-09-14T18:40:25.082Z",
-      "started_label": "2026-09-14 · depuis 18:40 UTC",
-      "affected_component_ids": [],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "done"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "done"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "now"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "monitoring",
-          "status_label": "Monitoring",
-          "body": "The degradation has been mitigated. We are monitoring to ensure stability.",
-          "created_at": "2026-09-14T19:01:52.783Z",
-          "time_label": "19:01 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of impacted performance for some GitHub services.",
-          "created_at": "2026-09-14T18:40:25.134Z",
-          "time_label": "18:40 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
