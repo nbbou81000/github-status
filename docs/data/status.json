@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-15T10:11:05.617Z",
+  "generated_at": "2026-09-15T10:20:42.465Z",
   "overall": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   },
   "components": [
     {
@@ -5219,8 +5219,8 @@
       "id": "cnnb39dkkk82",
       "name": "Copilot AI Model Providers",
       "short_name": "Copilot Models",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-09-09",
@@ -5745,22 +5745,24 @@
       "status_class": "deg",
       "created_at": "2026-09-15T09:47:15.093Z",
       "started_label": "2026-09-15 · depuis 09:47 UTC",
-      "affected_component_ids": [],
+      "affected_component_ids": [
+        "cnnb39dkkk82"
+      ],
       "steps": [
         {
           "name": "investigating",
           "label": "Investigating",
-          "state": "done"
+          "state": "now"
         },
         {
           "name": "identified",
           "label": "Identified",
-          "state": "done"
+          "state": "pending"
         },
         {
           "name": "monitoring",
           "label": "Monitoring",
-          "state": "now"
+          "state": "pending"
         },
         {
           "name": "resolved",
@@ -5769,6 +5771,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Copilot AI Model Providers is experiencing degraded performance. We are continuing to investigate.",
+          "created_at": "2026-09-15T10:20:13.627Z",
+          "time_label": "10:20 UTC"
+        },
         {
           "status": "monitoring",
           "status_label": "Monitoring",
