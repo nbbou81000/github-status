@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T09:40:46.127Z",
+  "generated_at": "2026-09-15T09:50:44.842Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -1320,7 +1320,7 @@
         },
         {
           "date": "2026-07-16",
-          "class": "part"
+          "class": "op"
         },
         {
           "date": "2026-07-17",
@@ -5737,6 +5737,54 @@
       ]
     }
   ],
-  "incidents": [],
-  "has_active_incident": false
+  "incidents": [
+    {
+      "id": "qwdwmtqghpk5",
+      "name": "Disruption with some GitHub services",
+      "impact": "minor",
+      "status_class": "deg",
+      "created_at": "2026-09-15T09:47:15.093Z",
+      "started_label": "2026-09-15 · depuis 09:47 UTC",
+      "affected_component_ids": [],
+      "steps": [
+        {
+          "name": "investigating",
+          "label": "Investigating",
+          "state": "done"
+        },
+        {
+          "name": "identified",
+          "label": "Identified",
+          "state": "done"
+        },
+        {
+          "name": "monitoring",
+          "label": "Monitoring",
+          "state": "now"
+        },
+        {
+          "name": "resolved",
+          "label": "Resolved",
+          "state": "pending"
+        }
+      ],
+      "updates": [
+        {
+          "status": "monitoring",
+          "status_label": "Monitoring",
+          "body": "We are investigating degraded availability for Claude Fable 5.1, affecting some Copilot products and integrated development environments. The issue is caused by a problem with our upstream model provider. Customers can use another model or select Auto while we investigate.",
+          "created_at": "2026-09-15T09:48:04.095Z",
+          "time_label": "09:48 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating reports of impacted performance for some GitHub services.",
+          "created_at": "2026-09-15T09:47:15.162Z",
+          "time_label": "09:47 UTC"
+        }
+      ]
+    }
+  ],
+  "has_active_incident": true
 }
