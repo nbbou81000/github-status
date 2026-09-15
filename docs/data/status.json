@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T10:20:42.465Z",
+  "generated_at": "2026-09-15T10:30:55.839Z",
   "overall": {
     "indicator": "minor",
     "description": "Partially Degraded Service"
@@ -5248,7 +5248,7 @@
         },
         {
           "date": "2026-09-15",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_30": [
@@ -5370,7 +5370,7 @@
         },
         {
           "date": "2026-09-15",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_90": [
@@ -5732,7 +5732,7 @@
         },
         {
           "date": "2026-09-15",
-          "class": "op"
+          "class": "deg"
         }
       ]
     }
