@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T20:50:49.159Z",
+  "generated_at": "2026-09-17T21:01:18.724Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5248,7 +5248,7 @@
         },
         {
           "date": "2026-09-17",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_30": [
@@ -5370,7 +5370,7 @@
         },
         {
           "date": "2026-09-17",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_90": [
@@ -5496,7 +5496,7 @@
         },
         {
           "date": "2026-07-20",
-          "class": "deg"
+          "class": "op"
         },
         {
           "date": "2026-07-21",
@@ -5732,11 +5732,54 @@
         },
         {
           "date": "2026-09-17",
-          "class": "op"
+          "class": "deg"
         }
       ]
     }
   ],
-  "incidents": [],
-  "has_active_incident": false
+  "incidents": [
+    {
+      "id": "nvy2q96mcmyg",
+      "name": "Elevated rate of errors for OpenAI models provided by Copilot",
+      "impact": "minor",
+      "status_class": "deg",
+      "created_at": "2026-09-17T20:59:02.074Z",
+      "started_label": "2026-09-17 · depuis 20:59 UTC",
+      "affected_component_ids": [
+        "cnnb39dkkk82"
+      ],
+      "steps": [
+        {
+          "name": "investigating",
+          "label": "Investigating",
+          "state": "now"
+        },
+        {
+          "name": "identified",
+          "label": "Identified",
+          "state": "pending"
+        },
+        {
+          "name": "monitoring",
+          "label": "Monitoring",
+          "state": "pending"
+        },
+        {
+          "name": "resolved",
+          "label": "Resolved",
+          "state": "pending"
+        }
+      ],
+      "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating reports of degraded performance for Copilot AI Model Providers",
+          "created_at": "2026-09-17T20:59:02.127Z",
+          "time_label": "20:59 UTC"
+        }
+      ]
+    }
+  ],
+  "has_active_incident": true
 }
