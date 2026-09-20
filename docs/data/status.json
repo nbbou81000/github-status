@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T23:20:45.795Z",
+  "generated_at": "2026-09-20T23:30:59.469Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5737,63 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "f6yrxnz5f7bs",
-      "name": "Incident with Pull Requests",
-      "impact": "minor",
-      "status_class": "deg",
-      "created_at": "2026-09-20T22:13:37.889Z",
-      "started_label": "2026-09-20 · depuis 22:13 UTC",
-      "affected_component_ids": [
-        "hhtssxt0f5v2"
-      ],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "done"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "done"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "now"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "monitoring",
-          "status_label": "Monitoring",
-          "body": "A git fileserver issue caused a brief delay in creating some merge commits - we've isolated the underlying server and already observed recovery.",
-          "created_at": "2026-09-20T22:32:02.624Z",
-          "time_label": "22:32 UTC"
-        },
-        {
-          "status": "monitoring",
-          "status_label": "Monitoring",
-          "body": "The degradation affecting Pull Requests has been mitigated. We are monitoring to ensure stability.",
-          "created_at": "2026-09-20T22:27:28.769Z",
-          "time_label": "22:27 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of degraded performance for Pull Requests",
-          "created_at": "2026-09-20T22:13:37.969Z",
-          "time_label": "22:13 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
