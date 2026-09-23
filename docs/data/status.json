@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T13:31:03.236Z",
+  "generated_at": "2026-09-23T13:40:45.853Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5771,6 +5771,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Users may experience stale Project search results. We are working to increase indexing speed. All other services are available.",
+          "created_at": "2026-09-23T13:35:44.672Z",
+          "time_label": "13:35 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
