@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T18:40:46.388Z",
+  "generated_at": "2026-09-23T18:50:52.816Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5771,6 +5771,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Continuing to investigate the lag that may be experienced in issue labels being accurately reflected in Projects. We are working on alternate solutions to process the backlog of label updates.",
+          "created_at": "2026-09-23T18:42:01.379Z",
+          "time_label": "18:42 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
