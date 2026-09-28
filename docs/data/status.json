@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T22:01:11.427Z",
+  "generated_at": "2026-09-28T22:10:41.343Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5737,54 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "169pg72gg9jr",
-      "name": "Copilot Code Review is unable to complete reviews",
-      "impact": "critical",
-      "status_class": "maj",
-      "created_at": "2026-09-28T21:16:39.012Z",
-      "started_label": "2026-09-28 · depuis 21:16 UTC",
-      "affected_component_ids": [],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "now"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "pending"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "pending"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Revert of the impacted change is in flight, expect full recovery once the deployment is done.",
-          "created_at": "2026-09-28T21:23:59.226Z",
-          "time_label": "21:23 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of impacted performance for some GitHub services.",
-          "created_at": "2026-09-28T21:16:39.060Z",
-          "time_label": "21:16 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
