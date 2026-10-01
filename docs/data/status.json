@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T14:50:47.948Z",
+  "generated_at": "2026-10-01T15:01:19.470Z",
   "overall": {
     "indicator": "minor",
     "description": "Partially Degraded Service"
@@ -5771,6 +5771,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We have identified the cause of increased Actions run start delays on Ubuntu runners and are actively deploying a fix. Customers may continue to experience intermittent delays while the mitigation rolls out and service metrics return to normal.",
+          "created_at": "2026-10-01T14:54:13.101Z",
+          "time_label": "14:54 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
