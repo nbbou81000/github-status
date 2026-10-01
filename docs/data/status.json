@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T15:01:19.470Z",
+  "generated_at": "2026-10-01T15:10:48.568Z",
   "overall": {
     "indicator": "minor",
     "description": "Partially Degraded Service"
@@ -5771,6 +5771,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Run-start delays on Ubuntu runners have been resolved. We are investigating run-start delays on Windows runners and will share more information as it becomes available.",
+          "created_at": "2026-10-01T15:02:41.043Z",
+          "time_label": "15:02 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
