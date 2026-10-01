@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-01T15:20:50.682Z",
+  "generated_at": "2026-10-01T15:31:10.210Z",
   "overall": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   },
   "components": [
     {
@@ -2614,8 +2614,8 @@
       "id": "br0l2tvcx85d",
       "name": "Actions",
       "short_name": "Actions",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-09-25",
@@ -5752,17 +5752,17 @@
         {
           "name": "investigating",
           "label": "Investigating",
-          "state": "done"
+          "state": "now"
         },
         {
           "name": "identified",
           "label": "Identified",
-          "state": "done"
+          "state": "pending"
         },
         {
           "name": "monitoring",
           "label": "Monitoring",
-          "state": "now"
+          "state": "pending"
         },
         {
           "name": "resolved",
@@ -5771,6 +5771,20 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are seeing a reoccurrence in run-start delays, and are continuing to investigate to issue. Customers will potentially experience delays of up to ten minutes.",
+          "created_at": "2026-10-01T15:29:46.969Z",
+          "time_label": "15:29 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Actions is experiencing degraded performance. We are continuing to investigate.",
+          "created_at": "2026-10-01T15:20:46.089Z",
+          "time_label": "15:20 UTC"
+        },
         {
           "status": "monitoring",
           "status_label": "Monitoring",
