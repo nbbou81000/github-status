@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-01T14:40:46.727Z",
+  "generated_at": "2026-10-01T14:50:47.948Z",
   "overall": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   },
   "components": [
     {
@@ -2614,8 +2614,8 @@
       "id": "br0l2tvcx85d",
       "name": "Actions",
       "short_name": "Actions",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-09-25",
@@ -2643,7 +2643,7 @@
         },
         {
           "date": "2026-10-01",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_30": [
@@ -2765,7 +2765,7 @@
         },
         {
           "date": "2026-10-01",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_90": [
@@ -3127,7 +3127,7 @@
         },
         {
           "date": "2026-10-01",
-          "class": "op"
+          "class": "deg"
         }
       ]
     },
@@ -5737,6 +5737,49 @@
       ]
     }
   ],
-  "incidents": [],
-  "has_active_incident": false
+  "incidents": [
+    {
+      "id": "2dpbcq5j165n",
+      "name": "Actions Job Delays",
+      "impact": "minor",
+      "status_class": "deg",
+      "created_at": "2026-10-01T14:47:48.138Z",
+      "started_label": "2026-10-01 · depuis 14:47 UTC",
+      "affected_component_ids": [
+        "br0l2tvcx85d"
+      ],
+      "steps": [
+        {
+          "name": "investigating",
+          "label": "Investigating",
+          "state": "now"
+        },
+        {
+          "name": "identified",
+          "label": "Identified",
+          "state": "pending"
+        },
+        {
+          "name": "monitoring",
+          "label": "Monitoring",
+          "state": "pending"
+        },
+        {
+          "name": "resolved",
+          "label": "Resolved",
+          "state": "pending"
+        }
+      ],
+      "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating reports of degraded performance for Actions",
+          "created_at": "2026-10-01T14:47:48.228Z",
+          "time_label": "14:47 UTC"
+        }
+      ]
+    }
+  ],
+  "has_active_incident": true
 }
