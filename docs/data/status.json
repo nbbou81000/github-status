@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-01T17:50:49.217Z",
+  "generated_at": "2026-10-01T18:01:22.214Z",
   "overall": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   },
   "components": [
     {
@@ -2614,8 +2614,8 @@
       "id": "br0l2tvcx85d",
       "name": "Actions",
       "short_name": "Actions",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-09-25",
@@ -5737,98 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "2dpbcq5j165n",
-      "name": "Actions Job Delays",
-      "impact": "minor",
-      "status_class": "deg",
-      "created_at": "2026-10-01T14:47:48.138Z",
-      "started_label": "2026-10-01 · depuis 14:47 UTC",
-      "affected_component_ids": [
-        "br0l2tvcx85d"
-      ],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "now"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "pending"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "pending"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are currently applying a mitigation and anticipate recovery within thirty minutes.",
-          "created_at": "2026-10-01T16:48:51.025Z",
-          "time_label": "16:48 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We have identified an issue with our upstream provider which is causing Actions requests to 429 which is creating the delays. We have escalated to the owning team and are investigating how to mitigate the 429s.",
-          "created_at": "2026-10-01T16:10:24.539Z",
-          "time_label": "16:10 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are seeing a reoccurrence in run-start delays, and are continuing to investigate to issue. Customers will potentially experience delays of up to ten minutes.",
-          "created_at": "2026-10-01T15:29:46.969Z",
-          "time_label": "15:29 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Actions is experiencing degraded performance. We are continuing to investigate.",
-          "created_at": "2026-10-01T15:20:46.089Z",
-          "time_label": "15:20 UTC"
-        },
-        {
-          "status": "monitoring",
-          "status_label": "Monitoring",
-          "body": "The degradation affecting Actions has been mitigated. We are monitoring to ensure stability.",
-          "created_at": "2026-10-01T15:10:52.227Z",
-          "time_label": "15:10 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Run-start delays on Ubuntu runners have been resolved. We are investigating run-start delays on Windows runners and will share more information as it becomes available.",
-          "created_at": "2026-10-01T15:02:41.043Z",
-          "time_label": "15:02 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We have identified the cause of increased Actions run start delays on Ubuntu runners and are actively deploying a fix. Customers may continue to experience intermittent delays while the mitigation rolls out and service metrics return to normal.",
-          "created_at": "2026-10-01T14:54:13.101Z",
-          "time_label": "14:54 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of degraded performance for Actions",
-          "created_at": "2026-10-01T14:47:48.228Z",
-          "time_label": "14:47 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
