@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T13:31:04.554Z",
+  "generated_at": "2026-10-01T13:40:46.107Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -2330,7 +2330,7 @@
         },
         {
           "date": "2026-07-24",
-          "class": "maj"
+          "class": "op"
         },
         {
           "date": "2026-07-25",
@@ -5737,6 +5737,54 @@
       ]
     }
   ],
-  "incidents": [],
-  "has_active_incident": false
+  "incidents": [
+    {
+      "id": "c8466lzvnmsv",
+      "name": "Elevated request latency",
+      "impact": "minor",
+      "status_class": "deg",
+      "created_at": "2026-10-01T13:37:33.066Z",
+      "started_label": "2026-10-01 · depuis 13:37 UTC",
+      "affected_component_ids": [],
+      "steps": [
+        {
+          "name": "investigating",
+          "label": "Investigating",
+          "state": "now"
+        },
+        {
+          "name": "identified",
+          "label": "Identified",
+          "state": "pending"
+        },
+        {
+          "name": "monitoring",
+          "label": "Monitoring",
+          "state": "pending"
+        },
+        {
+          "name": "resolved",
+          "label": "Resolved",
+          "state": "pending"
+        }
+      ],
+      "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating recurrent periods of elevated latency affecting web requests. We’ll share updates as more information becomes available.",
+          "created_at": "2026-10-01T13:39:10.094Z",
+          "time_label": "13:39 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating reports of impacted performance for some GitHub services.",
+          "created_at": "2026-10-01T13:37:33.128Z",
+          "time_label": "13:37 UTC"
+        }
+      ]
+    }
+  ],
+  "has_active_incident": true
 }
