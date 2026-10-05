@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T21:20:51.872Z",
+  "generated_at": "2026-10-05T21:31:03.428Z",
   "overall": {
     "indicator": "major",
     "description": "Partial System Outage"
@@ -3656,8 +3656,8 @@
       "id": "vg70hn9s2tyj",
       "name": "Pages",
       "short_name": "Pages",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-09-29",
@@ -3685,7 +3685,7 @@
         },
         {
           "date": "2026-10-05",
-          "class": "op"
+          "class": "maj"
         }
       ],
       "history_30": [
@@ -3807,7 +3807,7 @@
         },
         {
           "date": "2026-10-05",
-          "class": "op"
+          "class": "maj"
         }
       ],
       "history_90": [
@@ -4169,7 +4169,7 @@
         },
         {
           "date": "2026-10-05",
-          "class": "op"
+          "class": "maj"
         }
       ]
     },
@@ -5746,7 +5746,8 @@
       "created_at": "2026-10-05T19:11:58.382Z",
       "started_label": "2026-10-05 · depuis 19:11 UTC",
       "affected_component_ids": [
-        "br0l2tvcx85d"
+        "br0l2tvcx85d",
+        "vg70hn9s2tyj"
       ],
       "steps": [
         {
@@ -5771,6 +5772,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Pages is experiencing degraded performance. We are continuing to investigate.",
+          "created_at": "2026-10-05T21:22:39.017Z",
+          "time_label": "21:22 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
