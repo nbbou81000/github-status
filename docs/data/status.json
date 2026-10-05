@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T23:40:51.432Z",
+  "generated_at": "2026-10-05T23:50:44.651Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -2839,7 +2839,7 @@
         },
         {
           "date": "2026-07-25",
-          "class": "maj"
+          "class": "op"
         },
         {
           "date": "2026-07-26",
@@ -5737,6 +5737,47 @@
       ]
     }
   ],
-  "incidents": [],
-  "has_active_incident": false
+  "incidents": [
+    {
+      "id": "2kxnqcxcrr7f",
+      "name": "Disruption with some GitHub services",
+      "impact": "major",
+      "status_class": "part",
+      "created_at": "2026-10-05T23:47:45.202Z",
+      "started_label": "2026-10-05 · depuis 23:47 UTC",
+      "affected_component_ids": [],
+      "steps": [
+        {
+          "name": "investigating",
+          "label": "Investigating",
+          "state": "now"
+        },
+        {
+          "name": "identified",
+          "label": "Identified",
+          "state": "pending"
+        },
+        {
+          "name": "monitoring",
+          "label": "Monitoring",
+          "state": "pending"
+        },
+        {
+          "name": "resolved",
+          "label": "Resolved",
+          "state": "pending"
+        }
+      ],
+      "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating reports of impacted performance for some GitHub services.",
+          "created_at": "2026-10-05T23:47:45.254Z",
+          "time_label": "23:47 UTC"
+        }
+      ]
+    }
+  ],
+  "has_active_incident": true
 }
