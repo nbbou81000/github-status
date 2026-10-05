@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-05T22:40:48.899Z",
+  "generated_at": "2026-10-05T22:50:47.502Z",
   "overall": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   },
   "components": [
     {
@@ -3656,8 +3656,8 @@
       "id": "vg70hn9s2tyj",
       "name": "Pages",
       "short_name": "Pages",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-09-29",
@@ -5737,113 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "3q1yb5m7ltvb",
-      "name": "Incident with Actions",
-      "impact": "critical",
-      "status_class": "maj",
-      "created_at": "2026-10-05T19:11:58.382Z",
-      "started_label": "2026-10-05 · depuis 19:11 UTC",
-      "affected_component_ids": [
-        "br0l2tvcx85d",
-        "vg70hn9s2tyj"
-      ],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "now"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "pending"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "pending"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Actions is operating normally.",
-          "created_at": "2026-10-05T21:54:23.028Z",
-          "time_label": "21:54 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We have applied mitigations to address GitHub Actions failures. Queued jobs are clearing, new jobs are not delayed, and we expect full runner recovery shortly. We continue to monitor for full recovery and are working to mitigate ongoing issues affecting other services, including access to repository lists, licensing, and billing pages.",
-          "created_at": "2026-10-05T21:32:31.460Z",
-          "time_label": "21:32 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Actions is experiencing degraded performance. We are continuing to investigate.",
-          "created_at": "2026-10-05T21:31:18.177Z",
-          "time_label": "21:31 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Pages is experiencing degraded performance. We are continuing to investigate.",
-          "created_at": "2026-10-05T21:22:39.017Z",
-          "time_label": "21:22 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "In addition to ongoing issues with Actions and Hosted Runners, some customers are also unable to access repository list, licensing and billing pages within their GitHub accounts. We continue to investigate and are working on mitigation.",
-          "created_at": "2026-10-05T21:09:15.654Z",
-          "time_label": "21:09 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Actions is experiencing degraded availability. We are continuing to investigate.",
-          "created_at": "2026-10-05T20:47:22.557Z",
-          "time_label": "20:47 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We’re continuing to investigate job failures and delays affecting GitHub-hosted runner assignment and workflow start times. Our teams are actively working to mitigate the impact and will provide another update as we learn more.",
-          "created_at": "2026-10-05T20:39:27.955Z",
-          "time_label": "20:39 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We’re still investigating delays in assigning GitHub-hosted runners, affecting workflow start times across multiple runner configurations. Our teams are working to mitigate the impact; we’ll share another update as we learn more.",
-          "created_at": "2026-10-05T19:50:50.720Z",
-          "time_label": "19:50 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We’re investigating an issue causing delays when assigning GitHub-hosted runners to Actions jobs. Some workflows may take longer to start across runner configurations. Our teams are working to mitigate the issue, and we’ll provide an update as we learn more.",
-          "created_at": "2026-10-05T19:15:17.486Z",
-          "time_label": "19:15 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of degraded performance for Actions",
-          "created_at": "2026-10-05T19:11:58.492Z",
-          "time_label": "19:11 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
