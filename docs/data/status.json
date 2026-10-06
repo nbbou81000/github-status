@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T23:40:44.795Z",
+  "generated_at": "2026-10-06T23:50:43.832Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5737,99 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "cjwszcf57bff",
-      "name": "Several services are degraded",
-      "impact": "critical",
-      "status_class": "maj",
-      "created_at": "2026-10-06T19:57:35.445Z",
-      "started_label": "2026-10-06 · depuis 19:57 UTC",
-      "affected_component_ids": [
-        "4230lsnqdsld",
-        "hhtssxt0f5v2"
-      ],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "now"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "pending"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "pending"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are deploying a mitigation and plan to resume migrations shortly thereafter",
-          "created_at": "2026-10-06T22:40:56.734Z",
-          "time_label": "22:40 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are working towards a mitigation that will allow us to resume processing enterprise migrations.",
-          "created_at": "2026-10-06T21:29:46.918Z",
-          "time_label": "21:29 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "All services are functioning normally except for enterprise migrations, which are still paused. They will resume soon.",
-          "created_at": "2026-10-06T20:57:19.844Z",
-          "time_label": "20:57 UTC"
-        },
-        {
-          "status": "monitoring",
-          "status_label": "Monitoring",
-          "body": "The degradation has been mitigated. We are monitoring to ensure stability.",
-          "created_at": "2026-10-06T20:26:46.442Z",
-          "time_label": "20:26 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "A number of services including issues, pull requests, and webhooks, were briefly degraded, but have now recovered. Enterprise migrations are paused while we validate causes and mitigations.",
-          "created_at": "2026-10-06T20:22:31.621Z",
-          "time_label": "20:22 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Pull Requests is operating normally.",
-          "created_at": "2026-10-06T20:12:00.989Z",
-          "time_label": "20:12 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Webhooks is operating normally.",
-          "created_at": "2026-10-06T20:04:28.720Z",
-          "time_label": "20:04 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of degraded performance for Pull Requests and Webhooks",
-          "created_at": "2026-10-06T19:57:35.580Z",
-          "time_label": "19:57 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
