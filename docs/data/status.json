@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T20:20:51.841Z",
+  "generated_at": "2026-10-06T20:29:24.991Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5753,17 +5753,17 @@
         {
           "name": "investigating",
           "label": "Investigating",
-          "state": "now"
+          "state": "done"
         },
         {
           "name": "identified",
           "label": "Identified",
-          "state": "pending"
+          "state": "done"
         },
         {
           "name": "monitoring",
           "label": "Monitoring",
-          "state": "pending"
+          "state": "now"
         },
         {
           "name": "resolved",
@@ -5772,6 +5772,20 @@
         }
       ],
       "updates": [
+        {
+          "status": "monitoring",
+          "status_label": "Monitoring",
+          "body": "The degradation has been mitigated. We are monitoring to ensure stability.",
+          "created_at": "2026-10-06T20:26:46.442Z",
+          "time_label": "20:26 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "A number of services including issues, pull requests, and webhooks, were briefly degraded, but have now recovered. Enterprise migrations are paused while we validate causes and mitigations.",
+          "created_at": "2026-10-06T20:22:31.621Z",
+          "time_label": "20:22 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
