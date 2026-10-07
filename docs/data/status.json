@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-07T15:31:34.036Z",
+  "generated_at": "2026-10-07T15:40:52.150Z",
   "overall": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   },
   "components": [
     {
       "id": "8l4ygp009s5s",
       "name": "Git Operations",
       "short_name": "Git Ops",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-10-01",
@@ -2093,8 +2093,8 @@
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
       "short_name": "Pull Req.",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-10-01",
@@ -2614,8 +2614,8 @@
       "id": "br0l2tvcx85d",
       "name": "Actions",
       "short_name": "Actions",
-      "status_class": "maj",
-      "status_label": "Majeur",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-10-01",
@@ -5775,6 +5775,27 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Git Operations is experiencing degraded performance. We are continuing to investigate.",
+          "created_at": "2026-10-07T15:35:30.140Z",
+          "time_label": "15:35 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Actions is operating normally.",
+          "created_at": "2026-10-07T15:32:02.178Z",
+          "time_label": "15:32 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "The degradation affecting Pull Requests has been mitigated. We are monitoring to ensure stability.",
+          "created_at": "2026-10-07T15:31:55.952Z",
+          "time_label": "15:31 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
