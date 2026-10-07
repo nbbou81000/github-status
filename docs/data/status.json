@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-07T15:40:52.150Z",
+  "generated_at": "2026-10-07T15:50:51.225Z",
   "overall": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   },
   "components": [
     {
       "id": "8l4ygp009s5s",
       "name": "Git Operations",
       "short_name": "Git Ops",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-10-01",
@@ -530,8 +530,8 @@
       "id": "4230lsnqdsld",
       "name": "Webhooks",
       "short_name": "Webhooks",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-10-01",
@@ -1572,8 +1572,8 @@
       "id": "kr09ddfgbfsf",
       "name": "Issues",
       "short_name": "Issues",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-10-01",
@@ -5756,17 +5756,17 @@
         {
           "name": "investigating",
           "label": "Investigating",
-          "state": "now"
+          "state": "done"
         },
         {
           "name": "identified",
           "label": "Identified",
-          "state": "pending"
+          "state": "done"
         },
         {
           "name": "monitoring",
           "label": "Monitoring",
-          "state": "pending"
+          "state": "now"
         },
         {
           "name": "resolved",
@@ -5775,6 +5775,34 @@
         }
       ],
       "updates": [
+        {
+          "status": "monitoring",
+          "status_label": "Monitoring",
+          "body": "The degradation has been mitigated. We are monitoring to ensure stability.",
+          "created_at": "2026-10-07T15:49:57.261Z",
+          "time_label": "15:49 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "The degradation affecting Git Operations and Webhooks has been mitigated. We are monitoring to ensure stability.",
+          "created_at": "2026-10-07T15:49:53.336Z",
+          "time_label": "15:49 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "The degradation affecting Issues has been mitigated. We are monitoring to ensure stability.",
+          "created_at": "2026-10-07T15:47:07.617Z",
+          "time_label": "15:47 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are observing partial recovery across all systems. We are continuing to monitor and investigate the root cause of the disruption.",
+          "created_at": "2026-10-07T15:41:29.675Z",
+          "time_label": "15:41 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
