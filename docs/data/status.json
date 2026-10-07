@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T18:01:19.928Z",
+  "generated_at": "2026-10-07T18:10:49.889Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5737,73 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "qpfv5p86dmrl",
-      "name": "Incident with Git Operations, Issues, Actions and Pull Requests",
-      "impact": "critical",
-      "status_class": "maj",
-      "created_at": "2026-10-07T17:17:05.776Z",
-      "started_label": "2026-10-07 · depuis 17:17 UTC",
-      "affected_component_ids": [
-        "8l4ygp009s5s",
-        "kr09ddfgbfsf",
-        "hhtssxt0f5v2",
-        "br0l2tvcx85d"
-      ],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "done"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "done"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "now"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "monitoring",
-          "status_label": "Monitoring",
-          "body": "All systems have recovered. We have applied mitigations and do not anticipate another recurrence.",
-          "created_at": "2026-10-07T18:00:49.016Z",
-          "time_label": "18:00 UTC"
-        },
-        {
-          "status": "monitoring",
-          "status_label": "Monitoring",
-          "body": "The degradation has been mitigated. We are monitoring to ensure stability.",
-          "created_at": "2026-10-07T17:27:12.641Z",
-          "time_label": "17:27 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We observed widespread impact across GitHub services from 16:52 UTC to 17:01 UTC, and are investigating the root cause. All systems have recovered. This incident is a reoccurrence of the incident from earlier in the day https://www.githubstatus.com/incidents/djlmxz2zd0j7. Durable mitigation is in progress. We will provide another update in 30 minutes.",
-          "created_at": "2026-10-07T17:25:26.112Z",
-          "time_label": "17:25 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of degraded performance for Actions, Git Operations, Issues and Pull Requests",
-          "created_at": "2026-10-07T17:17:05.991Z",
-          "time_label": "17:17 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
