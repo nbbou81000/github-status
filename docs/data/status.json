@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T15:20:52.280Z",
+  "generated_at": "2026-10-07T15:31:34.036Z",
   "overall": {
     "indicator": "major",
     "description": "Partial System Outage"
@@ -9,8 +9,8 @@
       "id": "8l4ygp009s5s",
       "name": "Git Operations",
       "short_name": "Git Ops",
-      "status_class": "maj",
-      "status_label": "Majeur",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-10-01",
@@ -530,8 +530,8 @@
       "id": "4230lsnqdsld",
       "name": "Webhooks",
       "short_name": "Webhooks",
-      "status_class": "maj",
-      "status_label": "Majeur",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-10-01",
@@ -2093,8 +2093,8 @@
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
       "short_name": "Pull Req.",
-      "status_class": "maj",
-      "status_label": "Majeur",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-10-01",
@@ -5775,6 +5775,41 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Webhooks is experiencing degraded performance. We are continuing to investigate.",
+          "created_at": "2026-10-07T15:27:28.426Z",
+          "time_label": "15:27 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Git Operations is operating normally.",
+          "created_at": "2026-10-07T15:27:16.071Z",
+          "time_label": "15:27 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Pull Requests is experiencing degraded performance. We are continuing to investigate.",
+          "created_at": "2026-10-07T15:25:42.563Z",
+          "time_label": "15:25 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We observed widespread impact across GitHub services between 15:06 UTC and 15:16 UTC, and are investigating the root cause. We are seeing all systems recover, and will provide another update shortly.",
+          "created_at": "2026-10-07T15:24:11.997Z",
+          "time_label": "15:24 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Git Operations is experiencing degraded performance. We are continuing to investigate.",
+          "created_at": "2026-10-07T15:21:36.696Z",
+          "time_label": "15:21 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
