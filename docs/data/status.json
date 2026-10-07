@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T17:20:54.309Z",
+  "generated_at": "2026-10-07T17:31:42.412Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5755,17 +5755,17 @@
         {
           "name": "investigating",
           "label": "Investigating",
-          "state": "now"
+          "state": "done"
         },
         {
           "name": "identified",
           "label": "Identified",
-          "state": "pending"
+          "state": "done"
         },
         {
           "name": "monitoring",
           "label": "Monitoring",
-          "state": "pending"
+          "state": "now"
         },
         {
           "name": "resolved",
@@ -5774,6 +5774,20 @@
         }
       ],
       "updates": [
+        {
+          "status": "monitoring",
+          "status_label": "Monitoring",
+          "body": "The degradation has been mitigated. We are monitoring to ensure stability.",
+          "created_at": "2026-10-07T17:27:12.641Z",
+          "time_label": "17:27 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We observed widespread impact across GitHub services from 16:52 UTC to 17:01 UTC, and are investigating the root cause. All systems have recovered. This incident is a reoccurrence of the incident from earlier in the day https://www.githubstatus.com/incidents/djlmxz2zd0j7. Durable mitigation is in progress. We will provide another update shortly.",
+          "created_at": "2026-10-07T17:25:26.112Z",
+          "time_label": "17:25 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
