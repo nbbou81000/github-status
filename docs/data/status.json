@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T17:10:50.922Z",
+  "generated_at": "2026-10-07T17:20:54.309Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5452,7 +5452,7 @@
         },
         {
           "date": "2026-07-29",
-          "class": "deg"
+          "class": "op"
         },
         {
           "date": "2026-07-30",
@@ -5737,6 +5737,52 @@
       ]
     }
   ],
-  "incidents": [],
-  "has_active_incident": false
+  "incidents": [
+    {
+      "id": "qpfv5p86dmrl",
+      "name": "Incident with Git Operations, Issues, Actions and Pull Requests",
+      "impact": "critical",
+      "status_class": "maj",
+      "created_at": "2026-10-07T17:17:05.776Z",
+      "started_label": "2026-10-07 · depuis 17:17 UTC",
+      "affected_component_ids": [
+        "8l4ygp009s5s",
+        "kr09ddfgbfsf",
+        "hhtssxt0f5v2",
+        "br0l2tvcx85d"
+      ],
+      "steps": [
+        {
+          "name": "investigating",
+          "label": "Investigating",
+          "state": "now"
+        },
+        {
+          "name": "identified",
+          "label": "Identified",
+          "state": "pending"
+        },
+        {
+          "name": "monitoring",
+          "label": "Monitoring",
+          "state": "pending"
+        },
+        {
+          "name": "resolved",
+          "label": "Resolved",
+          "state": "pending"
+        }
+      ],
+      "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating reports of degraded performance for Actions, Git Operations, Issues and Pull Requests",
+          "created_at": "2026-10-07T17:17:05.991Z",
+          "time_label": "17:17 UTC"
+        }
+      ]
+    }
+  ],
+  "has_active_incident": true
 }
