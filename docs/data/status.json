@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T19:20:39.406Z",
+  "generated_at": "2026-10-12T19:30:59.928Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5773,6 +5773,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Web and email notifications will be delayed for 1 more hour as we are close to completing the backlog of notifications.",
+          "created_at": "2026-10-12T19:28:42.836Z",
+          "time_label": "19:28 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
