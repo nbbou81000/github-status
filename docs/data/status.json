@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T12:50:41.072Z",
+  "generated_at": "2026-10-12T13:01:44.309Z",
   "overall": {
     "indicator": "minor",
     "description": "Partially Degraded Service"
@@ -5773,6 +5773,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We have a mitigation in progress and are monitoring for recovery. Users may also experience delayed web notifications as we mitigate.",
+          "created_at": "2026-10-12T12:57:44.849Z",
+          "time_label": "12:57 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
