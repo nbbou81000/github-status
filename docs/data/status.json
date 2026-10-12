@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T13:01:44.309Z",
+  "generated_at": "2026-10-12T13:10:40.717Z",
   "overall": {
     "indicator": "minor",
     "description": "Partially Degraded Service"
@@ -2093,8 +2093,8 @@
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
       "short_name": "Pull Req.",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-10-06",
@@ -5773,6 +5773,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Pull Requests is operating normally.",
+          "created_at": "2026-10-12T13:02:17.366Z",
+          "time_label": "13:02 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
