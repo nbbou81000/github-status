@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T16:10:42.858Z",
+  "generated_at": "2026-10-21T16:20:41.466Z",
   "overall": {
     "indicator": "minor",
     "description": "Partially Degraded Service"
@@ -5773,6 +5773,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Audit log events and Actions workflow status updates continue to be delayed. Pull request updates and webhook deliveries are recovering as we restore event processing and work through backlogs. We’re monitoring the recovery and will share further updates as we learn more.",
+          "created_at": "2026-10-21T16:17:23.261Z",
+          "time_label": "16:17 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
