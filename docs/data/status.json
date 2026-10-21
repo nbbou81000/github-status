@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T15:30:58.449Z",
+  "generated_at": "2026-10-21T15:40:42.124Z",
   "overall": {
     "indicator": "minor",
     "description": "Partially Degraded Service"
@@ -5773,6 +5773,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating delays affecting pull request updates and webhook deliveries. Increased load on our event streaming platform is contributing to hotspots. We are shifting traffic away from affected areas and adding processing capacity; impact is ongoing while these mitigations take effect.",
+          "created_at": "2026-10-21T15:36:47.783Z",
+          "time_label": "15:36 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
