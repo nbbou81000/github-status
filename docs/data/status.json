@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T15:10:44.049Z",
+  "generated_at": "2026-10-21T15:20:46.923Z",
   "overall": {
     "indicator": "minor",
     "description": "Partially Degraded Service"
@@ -2614,8 +2614,8 @@
       "id": "br0l2tvcx85d",
       "name": "Actions",
       "short_name": "Actions",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-10-15",
@@ -5773,6 +5773,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Actions is experiencing degraded performance. We are continuing to investigate.",
+          "created_at": "2026-10-21T15:15:04.970Z",
+          "time_label": "15:15 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
