@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-21T16:50:42.630Z",
+  "generated_at": "2026-10-21T17:01:11.074Z",
   "overall": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   },
   "components": [
     {
@@ -530,8 +530,8 @@
       "id": "4230lsnqdsld",
       "name": "Webhooks",
       "short_name": "Webhooks",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-10-15",
@@ -2614,8 +2614,8 @@
       "id": "br0l2tvcx85d",
       "name": "Actions",
       "short_name": "Actions",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-10-15",
@@ -5773,6 +5773,20 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Actions and webhook deliveries have recovered. Audit log events are still delayed by about 100 minutes. We are working through the backlog, and full recovery will take some time. We will share more updates as recovery continues.",
+          "created_at": "2026-10-21T16:59:45.159Z",
+          "time_label": "16:59 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Actions and Webhooks are operating normally.",
+          "created_at": "2026-10-21T16:57:42.160Z",
+          "time_label": "16:57 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
