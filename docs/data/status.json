@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T18:50:42.595Z",
+  "generated_at": "2026-10-21T19:01:13.432Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5773,6 +5773,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Audit log events continue to recover, with delays now below 70 minutes. We’ve applied mitigations to speed recovery and expect audit logs to fully recover in about 40 minutes. Pull request updates, Actions, and webhook deliveries remain recovered. We are monitoring progress and will share further updates.",
+          "created_at": "2026-10-21T18:52:50.073Z",
+          "time_label": "18:52 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
