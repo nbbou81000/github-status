@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T15:01:11.492Z",
+  "generated_at": "2026-10-22T15:10:43.143Z",
   "overall": {
     "indicator": "minor",
     "description": "Partially Degraded Service"
@@ -5771,6 +5771,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We’re seeing recovery, and repository update processing has returned to normal. Delays affecting GitHub Actions workflow and step results are continuing to clear as we scale processing capacity; the remaining backlog is expected to take about 20 minutes to drain.",
+          "created_at": "2026-10-22T15:06:35.474Z",
+          "time_label": "15:06 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
