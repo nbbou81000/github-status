@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T16:20:42.221Z",
+  "generated_at": "2026-10-22T16:31:00.542Z",
   "overall": {
     "indicator": "minor",
     "description": "Partially Degraded Service"
@@ -1051,8 +1051,8 @@
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
       "short_name": "API Req.",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-10-16",
@@ -1080,7 +1080,7 @@
         },
         {
           "date": "2026-10-22",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_30": [
@@ -1202,7 +1202,7 @@
         },
         {
           "date": "2026-10-22",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_90": [
@@ -1564,7 +1564,7 @@
         },
         {
           "date": "2026-10-22",
-          "class": "op"
+          "class": "deg"
         }
       ]
     },
@@ -3135,8 +3135,8 @@
       "id": "st3j38cctv9l",
       "name": "Packages",
       "short_name": "Packages",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-10-16",
@@ -3164,7 +3164,7 @@
         },
         {
           "date": "2026-10-22",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_30": [
@@ -3286,7 +3286,7 @@
         },
         {
           "date": "2026-10-22",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_90": [
@@ -3648,7 +3648,7 @@
         },
         {
           "date": "2026-10-22",
-          "class": "op"
+          "class": "deg"
         }
       ]
     },
@@ -5746,9 +5746,11 @@
       "created_at": "2026-10-22T15:28:03.986Z",
       "started_label": "2026-10-22 · depuis 15:28 UTC",
       "affected_component_ids": [
+        "brv1bkgrwx7q",
         "kr09ddfgbfsf",
         "hhtssxt0f5v2",
-        "br0l2tvcx85d"
+        "br0l2tvcx85d",
+        "st3j38cctv9l"
       ],
       "steps": [
         {
@@ -5773,6 +5775,20 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Packages is experiencing degraded performance. We are continuing to investigate.",
+          "created_at": "2026-10-22T16:28:56.822Z",
+          "time_label": "16:28 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "API Requests is experiencing degraded performance. We are continuing to investigate.",
+          "created_at": "2026-10-22T16:26:16.966Z",
+          "time_label": "16:26 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
