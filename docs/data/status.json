@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T18:20:41.325Z",
+  "generated_at": "2026-10-22T18:30:58.304Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5775,6 +5775,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "The other affected services have recovered. <br /><br />We're continuing to investigate GitHub Projects and verify that normal operation has been restored.",
+          "created_at": "2026-10-22T18:26:31.116Z",
+          "time_label": "18:26 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
