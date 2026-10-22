@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T23:40:40.336Z",
+  "generated_at": "2026-10-22T23:50:43.388Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5775,6 +5775,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "GitHub Projects update processing has improved, but newly added items may still take longer than expected to appear. <br /><br />We're continuing to work on the remaining delays and monitor recovery.",
+          "created_at": "2026-10-22T23:48:05.358Z",
+          "time_label": "23:48 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
