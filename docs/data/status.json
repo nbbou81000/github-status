@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T22:01:08.362Z",
+  "generated_at": "2026-10-22T22:10:40.256Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5775,6 +5775,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Some GitHub Projects updates, including newly added items and changes to issues and pull requests, are still delayed.<br /><br />We have seen some recovery, and are working to add more capacity to accelerate the recovery.",
+          "created_at": "2026-10-22T22:07:36.307Z",
+          "time_label": "22:07 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
