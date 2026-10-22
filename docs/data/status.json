@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-22T14:20:40.997Z",
+  "generated_at": "2026-10-22T14:30:57.494Z",
   "overall": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   },
   "components": [
     {
