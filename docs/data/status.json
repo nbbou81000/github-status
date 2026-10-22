@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-22T17:40:43.709Z",
+  "generated_at": "2026-10-22T17:50:43.594Z",
   "overall": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   },
   "components": [
     {
@@ -1572,8 +1572,8 @@
       "id": "kr09ddfgbfsf",
       "name": "Issues",
       "short_name": "Issues",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-10-16",
@@ -2093,8 +2093,8 @@
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
       "short_name": "Pull Req.",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-10-16",
@@ -2614,8 +2614,8 @@
       "id": "br0l2tvcx85d",
       "name": "Actions",
       "short_name": "Actions",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-10-16",
@@ -3135,8 +3135,8 @@
       "id": "st3j38cctv9l",
       "name": "Packages",
       "short_name": "Packages",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-10-16",
@@ -5775,6 +5775,20 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We're seeing recovery across the affected services. GitHub Projects is still recovering as queued updates are processed, and we're continuing to monitor for stability.",
+          "created_at": "2026-10-22T17:43:44.874Z",
+          "time_label": "17:43 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Actions, Issues, Packages and Pull Requests are operating normally.",
+          "created_at": "2026-10-22T17:41:38.697Z",
+          "time_label": "17:41 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
