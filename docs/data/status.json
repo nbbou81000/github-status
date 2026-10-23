@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T15:30:58.054Z",
+  "generated_at": "2026-10-23T15:40:42.798Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5769,6 +5769,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We’re scaling alert processing capacity to reduce the backlog causing delays in some Dependabot alerts closing after affected repositories have been updated. We’re continuing to monitor and will share another update as more information becomes available.",
+          "created_at": "2026-10-23T15:39:57.071Z",
+          "time_label": "15:39 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
