@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T14:50:42.837Z",
+  "generated_at": "2026-10-23T15:01:11.340Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5737,6 +5737,54 @@
       ]
     }
   ],
-  "incidents": [],
-  "has_active_incident": false
+  "incidents": [
+    {
+      "id": "71y513kjvbzh",
+      "name": "Disruption with Dependabot Alerts",
+      "impact": "minor",
+      "status_class": "deg",
+      "created_at": "2026-10-23T14:58:48.748Z",
+      "started_label": "2026-10-23 · depuis 14:58 UTC",
+      "affected_component_ids": [],
+      "steps": [
+        {
+          "name": "investigating",
+          "label": "Investigating",
+          "state": "now"
+        },
+        {
+          "name": "identified",
+          "label": "Identified",
+          "state": "pending"
+        },
+        {
+          "name": "monitoring",
+          "label": "Monitoring",
+          "state": "pending"
+        },
+        {
+          "name": "resolved",
+          "label": "Resolved",
+          "state": "pending"
+        }
+      ],
+      "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We’re investigating delays in some Dependabot alerts closing after affected repositories have been updated to address a vulnerability. Alert processing is backed up. We’ll share more information as it becomes available.",
+          "created_at": "2026-10-23T15:00:01.746Z",
+          "time_label": "15:00 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating reports of impacted performance for some GitHub services.",
+          "created_at": "2026-10-23T14:58:48.893Z",
+          "time_label": "14:58 UTC"
+        }
+      ]
+    }
+  ],
+  "has_active_incident": true
 }
