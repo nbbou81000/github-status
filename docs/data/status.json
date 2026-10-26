@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T18:40:43.188Z",
+  "generated_at": "2026-10-26T18:50:41.720Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -1080,7 +1080,7 @@
         },
         {
           "date": "2026-10-26",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_30": [
@@ -1202,7 +1202,7 @@
         },
         {
           "date": "2026-10-26",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_90": [
@@ -1564,7 +1564,7 @@
         },
         {
           "date": "2026-10-26",
-          "class": "op"
+          "class": "deg"
         }
       ]
     },
@@ -1601,7 +1601,7 @@
         },
         {
           "date": "2026-10-26",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_30": [
@@ -1723,7 +1723,7 @@
         },
         {
           "date": "2026-10-26",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_90": [
@@ -1785,7 +1785,7 @@
         },
         {
           "date": "2026-08-12",
-          "class": "deg"
+          "class": "op"
         },
         {
           "date": "2026-08-13",
@@ -2085,7 +2085,7 @@
         },
         {
           "date": "2026-10-26",
-          "class": "op"
+          "class": "deg"
         }
       ]
     },
@@ -2122,7 +2122,7 @@
         },
         {
           "date": "2026-10-26",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_30": [
@@ -2244,7 +2244,7 @@
         },
         {
           "date": "2026-10-26",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_90": [
@@ -2306,7 +2306,7 @@
         },
         {
           "date": "2026-08-12",
-          "class": "deg"
+          "class": "op"
         },
         {
           "date": "2026-08-13",
@@ -2606,7 +2606,7 @@
         },
         {
           "date": "2026-10-26",
-          "class": "op"
+          "class": "deg"
         }
       ]
     },
@@ -2643,7 +2643,7 @@
         },
         {
           "date": "2026-10-26",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_30": [
@@ -2765,7 +2765,7 @@
         },
         {
           "date": "2026-10-26",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_90": [
@@ -3127,7 +3127,7 @@
         },
         {
           "date": "2026-10-26",
-          "class": "op"
+          "class": "deg"
         }
       ]
     },
@@ -5737,6 +5737,52 @@
       ]
     }
   ],
-  "incidents": [],
-  "has_active_incident": false
+  "incidents": [
+    {
+      "id": "f1vvv30224wd",
+      "name": "Incident with Actions, Issues, API Requests and Pull Requests",
+      "impact": "minor",
+      "status_class": "deg",
+      "created_at": "2026-10-26T18:48:26.235Z",
+      "started_label": "2026-10-26 · depuis 18:48 UTC",
+      "affected_component_ids": [
+        "brv1bkgrwx7q",
+        "kr09ddfgbfsf",
+        "hhtssxt0f5v2",
+        "br0l2tvcx85d"
+      ],
+      "steps": [
+        {
+          "name": "investigating",
+          "label": "Investigating",
+          "state": "now"
+        },
+        {
+          "name": "identified",
+          "label": "Identified",
+          "state": "pending"
+        },
+        {
+          "name": "monitoring",
+          "label": "Monitoring",
+          "state": "pending"
+        },
+        {
+          "name": "resolved",
+          "label": "Resolved",
+          "state": "pending"
+        }
+      ],
+      "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating reports of degraded performance for API Requests, Actions, Issues and Pull Requests",
+          "created_at": "2026-10-26T18:48:26.313Z",
+          "time_label": "18:48 UTC"
+        }
+      ]
+    }
+  ],
+  "has_active_incident": true
 }
