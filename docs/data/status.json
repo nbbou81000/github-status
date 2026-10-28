@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T15:20:44.349Z",
+  "generated_at": "2026-10-28T15:31:06.822Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -4206,7 +4206,7 @@
         },
         {
           "date": "2026-10-28",
-          "class": "op"
+          "class": "maj"
         }
       ],
       "history_30": [
@@ -4328,7 +4328,7 @@
         },
         {
           "date": "2026-10-28",
-          "class": "op"
+          "class": "maj"
         }
       ],
       "history_90": [
@@ -4690,7 +4690,7 @@
         },
         {
           "date": "2026-10-28",
-          "class": "op"
+          "class": "maj"
         }
       ]
     },
@@ -5737,75 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "l7ycmglmykgg",
-      "name": "Disruption with some Copilot services",
-      "impact": "critical",
-      "status_class": "maj",
-      "created_at": "2026-10-28T14:12:53.821Z",
-      "started_label": "2026-10-28 · depuis 14:12 UTC",
-      "affected_component_ids": [],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "now"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "pending"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "pending"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We have applied the mitigation and are seeing signs of recovery. We will continue to monitor and expect full resolution soon.",
-          "created_at": "2026-10-28T15:15:25.873Z",
-          "time_label": "15:15 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are experiencing degraded availability for the GPT-5.3-Codex, GPT-5.6 Luna, GPT-6.1 Sol, GPT-5.6 Terra, GPT-6 Luna, and MAI Code 1.1 Flash models in Copilot products and IDE surfaces. We have identified the root cause and working to apply a mitigation. While we work to resolve the issue we recommend choosing another model to continue using Copilot.",
-          "created_at": "2026-10-28T14:55:32.445Z",
-          "time_label": "14:55 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are experiencing degraded availability for the GPT-5.3-Codex, GPT-5.6 Luna, GPT-6.1 Sol, GPT-5.6 Terra, GPT-6 Luna, and MAI Code 1.1 Flash models in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to resolve the issue we recommend choosing another model to continue using Copilot.",
-          "created_at": "2026-10-28T14:33:55.402Z",
-          "time_label": "14:33 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are experiencing issues with upstream model providers resulting in a degraded experience across Copilot services. The team is actively investigating the issue.",
-          "created_at": "2026-10-28T14:15:46.574Z",
-          "time_label": "14:15 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of impacted performance for some GitHub services.",
-          "created_at": "2026-10-28T14:12:53.892Z",
-          "time_label": "14:12 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
