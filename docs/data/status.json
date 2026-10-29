@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T10:10:43.116Z",
+  "generated_at": "2026-10-29T10:20:44.317Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5424,7 +5424,7 @@
         },
         {
           "date": "2026-08-13",
-          "class": "deg"
+          "class": "op"
         },
         {
           "date": "2026-08-14",
@@ -5737,6 +5737,47 @@
       ]
     }
   ],
-  "incidents": [],
-  "has_active_incident": false
+  "incidents": [
+    {
+      "id": "rn76zdy367m2",
+      "name": "Disruption with Copilot Cloud services",
+      "impact": "minor",
+      "status_class": "deg",
+      "created_at": "2026-10-29T10:19:55.318Z",
+      "started_label": "2026-10-29 · depuis 10:19 UTC",
+      "affected_component_ids": [],
+      "steps": [
+        {
+          "name": "investigating",
+          "label": "Investigating",
+          "state": "now"
+        },
+        {
+          "name": "identified",
+          "label": "Identified",
+          "state": "pending"
+        },
+        {
+          "name": "monitoring",
+          "label": "Monitoring",
+          "state": "pending"
+        },
+        {
+          "name": "resolved",
+          "label": "Resolved",
+          "state": "pending"
+        }
+      ],
+      "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating reports of impacted performance for some GitHub services.",
+          "created_at": "2026-10-29T10:19:55.374Z",
+          "time_label": "10:19 UTC"
+        }
+      ]
+    }
+  ],
+  "has_active_incident": true
 }
