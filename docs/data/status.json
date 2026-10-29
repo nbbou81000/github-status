@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T11:31:03.154Z",
+  "generated_at": "2026-10-29T11:40:44.179Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5769,6 +5769,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We continue to experience failure rates of 1-2% and increased latency on our agent sessions service, including creating and listing sessions. This can impact cloud based agent sessions on web, mobile, VS Code, CLI and the GitHub Copilot app. We are actively applying mitigations and monitoring for recovery.",
+          "created_at": "2026-10-29T11:37:53.430Z",
+          "time_label": "11:37 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
