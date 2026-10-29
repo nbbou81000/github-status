@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T12:30:59.879Z",
+  "generated_at": "2026-10-29T12:40:42.989Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5750,17 +5750,17 @@
         {
           "name": "investigating",
           "label": "Investigating",
-          "state": "now"
+          "state": "done"
         },
         {
           "name": "identified",
           "label": "Identified",
-          "state": "pending"
+          "state": "done"
         },
         {
           "name": "monitoring",
           "label": "Monitoring",
-          "state": "pending"
+          "state": "now"
         },
         {
           "name": "resolved",
@@ -5769,6 +5769,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "monitoring",
+          "status_label": "Monitoring",
+          "body": "The degradation has been mitigated. We are monitoring to ensure stability.",
+          "created_at": "2026-10-29T12:33:32.177Z",
+          "time_label": "12:33 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
