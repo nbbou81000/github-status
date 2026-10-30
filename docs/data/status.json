@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T19:20:44.187Z",
+  "generated_at": "2026-10-30T19:30:58.290Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5737,79 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "pwxsjgnvrk6b",
-      "name": "Incident with Actions, Pages, and Webhooks",
-      "impact": "major",
-      "status_class": "part",
-      "created_at": "2026-10-30T17:50:54.677Z",
-      "started_label": "2026-10-30 · depuis 17:50 UTC",
-      "affected_component_ids": [
-        "4230lsnqdsld",
-        "br0l2tvcx85d",
-        "vg70hn9s2tyj"
-      ],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "done"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "done"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "now"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "monitoring",
-          "status_label": "Monitoring",
-          "body": "The degradation affecting Actions, Pages and Webhooks has been mitigated. We are monitoring to ensure stability.",
-          "created_at": "2026-10-30T18:32:39.824Z",
-          "time_label": "18:32 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "All affected services have recovered following mitigation. We continue to investigate root cause.",
-          "created_at": "2026-10-30T18:32:23.550Z",
-          "time_label": "18:32 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We continue to investigate delays affecting Actions workflows, Pages deployments, and webhook events, along with errors affecting code search and live updates. We have taken mitigation steps. Actions processing and Pages deployments are showing signs of recovery, but impact has not fully resolved. We are monitoring recovery and investigating the underlying cause.",
-          "created_at": "2026-10-30T18:06:21.711Z",
-          "time_label": "18:06 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Pages is experiencing degraded performance. We are continuing to investigate.",
-          "created_at": "2026-10-30T18:00:58.169Z",
-          "time_label": "18:00 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of degraded performance for Actions and Webhooks",
-          "created_at": "2026-10-30T17:50:54.785Z",
-          "time_label": "17:50 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
