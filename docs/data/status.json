@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-30T14:31:00.258Z",
+  "generated_at": "2026-10-30T14:40:44.335Z",
   "overall": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   },
   "components": [
     {
@@ -1572,8 +1572,8 @@
       "id": "kr09ddfgbfsf",
       "name": "Issues",
       "short_name": "Issues",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-10-24",
@@ -1601,7 +1601,7 @@
         },
         {
           "date": "2026-10-30",
-          "class": "op"
+          "class": "maj"
         }
       ],
       "history_30": [
@@ -1723,7 +1723,7 @@
         },
         {
           "date": "2026-10-30",
-          "class": "op"
+          "class": "maj"
         }
       ],
       "history_90": [
@@ -2085,7 +2085,7 @@
         },
         {
           "date": "2026-10-30",
-          "class": "op"
+          "class": "maj"
         }
       ]
     },
@@ -3685,7 +3685,7 @@
         },
         {
           "date": "2026-10-30",
-          "class": "op"
+          "class": "maj"
         }
       ],
       "history_30": [
@@ -3807,7 +3807,7 @@
         },
         {
           "date": "2026-10-30",
-          "class": "op"
+          "class": "maj"
         }
       ],
       "history_90": [
@@ -4169,7 +4169,7 @@
         },
         {
           "date": "2026-10-30",
-          "class": "op"
+          "class": "maj"
         }
       ]
     },
@@ -5737,6 +5737,71 @@
       ]
     }
   ],
-  "incidents": [],
-  "has_active_incident": false
+  "incidents": [
+    {
+      "id": "nxy2l0ssxm10",
+      "name": "Disruption with GitHub services",
+      "impact": "critical",
+      "status_class": "maj",
+      "created_at": "2026-10-30T14:31:16.537Z",
+      "started_label": "2026-10-30 · depuis 14:31 UTC",
+      "affected_component_ids": [
+        "kr09ddfgbfsf",
+        "vg70hn9s2tyj"
+      ],
+      "steps": [
+        {
+          "name": "investigating",
+          "label": "Investigating",
+          "state": "now"
+        },
+        {
+          "name": "identified",
+          "label": "Identified",
+          "state": "pending"
+        },
+        {
+          "name": "monitoring",
+          "label": "Monitoring",
+          "state": "pending"
+        },
+        {
+          "name": "resolved",
+          "label": "Resolved",
+          "state": "pending"
+        }
+      ],
+      "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Pages is experiencing degraded performance. We are continuing to investigate.",
+          "created_at": "2026-10-30T14:39:42.881Z",
+          "time_label": "14:39 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Issues is experiencing degraded performance. We are continuing to investigate.",
+          "created_at": "2026-10-30T14:36:00.563Z",
+          "time_label": "14:36 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating degraded performance across multiple services. We will continue to keep users updated on progress towards mitigation.",
+          "created_at": "2026-10-30T14:35:42.638Z",
+          "time_label": "14:35 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating reports of impacted performance for some GitHub services.",
+          "created_at": "2026-10-30T14:31:16.604Z",
+          "time_label": "14:31 UTC"
+        }
+      ]
+    }
+  ],
+  "has_active_incident": true
 }
