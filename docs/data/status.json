@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-30T14:40:44.335Z",
+  "generated_at": "2026-10-30T14:50:44.881Z",
   "overall": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   },
   "components": [
     {
@@ -1572,8 +1572,8 @@
       "id": "kr09ddfgbfsf",
       "name": "Issues",
       "short_name": "Issues",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-10-24",
@@ -5753,17 +5753,17 @@
         {
           "name": "investigating",
           "label": "Investigating",
-          "state": "now"
+          "state": "done"
         },
         {
           "name": "identified",
           "label": "Identified",
-          "state": "pending"
+          "state": "done"
         },
         {
           "name": "monitoring",
           "label": "Monitoring",
-          "state": "pending"
+          "state": "now"
         },
         {
           "name": "resolved",
@@ -5772,6 +5772,27 @@
         }
       ],
       "updates": [
+        {
+          "status": "monitoring",
+          "status_label": "Monitoring",
+          "body": "The degradation affecting Pages has been mitigated. We are monitoring to ensure stability.",
+          "created_at": "2026-10-30T14:49:46.388Z",
+          "time_label": "14:49 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "A temporarily overloaded component triggered a burst of errors between 14:21 and 14:30 UTC across numerous services. Component health has returned to normal and we continue to monitor while investigating the root cause.<br />",
+          "created_at": "2026-10-30T14:48:00.120Z",
+          "time_label": "14:48 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Issues is operating normally.",
+          "created_at": "2026-10-30T14:45:58.580Z",
+          "time_label": "14:45 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
