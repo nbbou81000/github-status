@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T20:50:45.920Z",
+  "generated_at": "2026-10-30T21:01:09.106Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5737,6 +5737,54 @@
       ]
     }
   ],
-  "incidents": [],
-  "has_active_incident": false
+  "incidents": [
+    {
+      "id": "lyyfm7j4pkgl",
+      "name": "Incident with Dependabot",
+      "impact": "minor",
+      "status_class": "deg",
+      "created_at": "2026-10-30T20:59:14.225Z",
+      "started_label": "2026-10-30 · depuis 20:59 UTC",
+      "affected_component_ids": [],
+      "steps": [
+        {
+          "name": "investigating",
+          "label": "Investigating",
+          "state": "now"
+        },
+        {
+          "name": "identified",
+          "label": "Identified",
+          "state": "pending"
+        },
+        {
+          "name": "monitoring",
+          "label": "Monitoring",
+          "state": "pending"
+        },
+        {
+          "name": "resolved",
+          "label": "Resolved",
+          "state": "pending"
+        }
+      ],
+      "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating elevated errors when viewing some Dependabot alerts.",
+          "created_at": "2026-10-30T21:00:18.322Z",
+          "time_label": "21:00 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating reports of impacted performance for some GitHub services.",
+          "created_at": "2026-10-30T20:59:14.291Z",
+          "time_label": "20:59 UTC"
+        }
+      ]
+    }
+  ],
+  "has_active_incident": true
 }
