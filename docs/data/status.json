@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T18:01:12.024Z",
+  "generated_at": "2026-10-30T18:10:46.085Z",
   "overall": {
     "indicator": "minor",
     "description": "Partially Degraded Service"
@@ -3656,8 +3656,8 @@
       "id": "vg70hn9s2tyj",
       "name": "Pages",
       "short_name": "Pages",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-10-24",
@@ -5741,13 +5741,14 @@
     {
       "id": "pwxsjgnvrk6b",
       "name": "Incident with Actions, Pages, and Webhooks",
-      "impact": "minor",
-      "status_class": "deg",
+      "impact": "major",
+      "status_class": "part",
       "created_at": "2026-10-30T17:50:54.677Z",
       "started_label": "2026-10-30 · depuis 17:50 UTC",
       "affected_component_ids": [
         "4230lsnqdsld",
-        "br0l2tvcx85d"
+        "br0l2tvcx85d",
+        "vg70hn9s2tyj"
       ],
       "steps": [
         {
@@ -5772,6 +5773,20 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We continue to investigate delays affecting Actions workflows, Pages deployments, and webhook events, along with errors affecting code search and live updates. We have taken mitigation steps. Actions processing and Pages deployments are showing signs of recovery, but impact has not fully resolved. We are monitoring recovery and investigating the underlying cause.",
+          "created_at": "2026-10-30T18:06:21.711Z",
+          "time_label": "18:06 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Pages is experiencing degraded performance. We are continuing to investigate.",
+          "created_at": "2026-10-30T18:00:58.169Z",
+          "time_label": "18:00 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
