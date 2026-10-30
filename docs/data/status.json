@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T15:01:14.355Z",
+  "generated_at": "2026-10-30T15:10:48.723Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5737,92 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "nxy2l0ssxm10",
-      "name": "Disruption with GitHub services",
-      "impact": "critical",
-      "status_class": "maj",
-      "created_at": "2026-10-30T14:31:16.537Z",
-      "started_label": "2026-10-30 · depuis 14:31 UTC",
-      "affected_component_ids": [
-        "kr09ddfgbfsf",
-        "vg70hn9s2tyj"
-      ],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "done"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "done"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "now"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "monitoring",
-          "status_label": "Monitoring",
-          "body": "The degradation affecting Pages has been mitigated. We are monitoring to ensure stability.",
-          "created_at": "2026-10-30T14:49:46.388Z",
-          "time_label": "14:49 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "A temporarily overloaded component triggered a burst of errors between 14:21 and 14:30 UTC across numerous services. Component health has returned to normal and we continue to monitor while investigating the root cause.<br />",
-          "created_at": "2026-10-30T14:48:00.120Z",
-          "time_label": "14:48 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Issues is operating normally.",
-          "created_at": "2026-10-30T14:45:58.580Z",
-          "time_label": "14:45 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Pages is experiencing degraded performance. We are continuing to investigate.",
-          "created_at": "2026-10-30T14:39:42.881Z",
-          "time_label": "14:39 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Issues is experiencing degraded performance. We are continuing to investigate.",
-          "created_at": "2026-10-30T14:36:00.563Z",
-          "time_label": "14:36 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating degraded performance across multiple services. We will continue to keep users updated on progress towards mitigation.",
-          "created_at": "2026-10-30T14:35:42.638Z",
-          "time_label": "14:35 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of impacted performance for some GitHub services.",
-          "created_at": "2026-10-30T14:31:16.604Z",
-          "time_label": "14:31 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
