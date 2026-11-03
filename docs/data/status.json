@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-03T22:31:02.032Z",
+  "generated_at": "2026-11-03T22:40:45.943Z",
   "overall": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   },
   "components": [
     {
       "id": "8l4ygp009s5s",
       "name": "Git Operations",
       "short_name": "Git Ops",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-10-28",
@@ -5752,17 +5752,17 @@
         {
           "name": "investigating",
           "label": "Investigating",
-          "state": "now"
+          "state": "done"
         },
         {
           "name": "identified",
           "label": "Identified",
-          "state": "pending"
+          "state": "done"
         },
         {
           "name": "monitoring",
           "label": "Monitoring",
-          "state": "pending"
+          "state": "now"
         },
         {
           "name": "resolved",
@@ -5771,6 +5771,20 @@
         }
       ],
       "updates": [
+        {
+          "status": "monitoring",
+          "status_label": "Monitoring",
+          "body": "The degradation affecting Git Operations has been mitigated. We are monitoring to ensure stability.",
+          "created_at": "2026-11-03T22:37:36.779Z",
+          "time_label": "22:37 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are seeing significant improvement, though some Git Operations may be slow for a small set of customers. We are marking this as mitigated and will continue to monitor.",
+          "created_at": "2026-11-03T22:37:27.896Z",
+          "time_label": "22:37 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
