@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T13:40:44.268Z",
+  "generated_at": "2026-11-03T13:50:45.637Z",
   "overall": {
     "indicator": "minor",
     "description": "Partially Degraded Service"
@@ -1601,7 +1601,7 @@
         },
         {
           "date": "2026-11-03",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_30": [
@@ -1723,7 +1723,7 @@
         },
         {
           "date": "2026-11-03",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_90": [
@@ -2085,7 +2085,7 @@
         },
         {
           "date": "2026-11-03",
-          "class": "op"
+          "class": "deg"
         }
       ]
     },
@@ -5746,6 +5746,7 @@
       "created_at": "2026-11-03T13:25:19.620Z",
       "started_label": "2026-11-03 · depuis 13:25 UTC",
       "affected_component_ids": [
+        "kr09ddfgbfsf",
         "pjmpxvq2cmr2"
       ],
       "steps": [
@@ -5771,6 +5772,20 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "The degradation affecting Issues has been mitigated. We are monitoring to ensure stability.",
+          "created_at": "2026-11-03T13:43:50.998Z",
+          "time_label": "13:43 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Issues is experiencing degraded performance. We are continuing to investigate.",
+          "created_at": "2026-11-03T13:42:17.747Z",
+          "time_label": "13:42 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
