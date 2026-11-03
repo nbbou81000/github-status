@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-03T20:50:50.905Z",
+  "generated_at": "2026-11-03T21:01:08.771Z",
   "overall": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   },
   "components": [
     {
       "id": "8l4ygp009s5s",
       "name": "Git Operations",
       "short_name": "Git Ops",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-10-28",
@@ -38,7 +38,7 @@
         },
         {
           "date": "2026-11-03",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_30": [
@@ -160,7 +160,7 @@
         },
         {
           "date": "2026-11-03",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_90": [
@@ -522,7 +522,7 @@
         },
         {
           "date": "2026-11-03",
-          "class": "op"
+          "class": "deg"
         }
       ]
     },
@@ -5737,6 +5737,49 @@
       ]
     }
   ],
-  "incidents": [],
-  "has_active_incident": false
+  "incidents": [
+    {
+      "id": "13b6lyl8d7bz",
+      "name": "Incident with Git Operations",
+      "impact": "minor",
+      "status_class": "deg",
+      "created_at": "2026-11-03T20:57:14.438Z",
+      "started_label": "2026-11-03 · depuis 20:57 UTC",
+      "affected_component_ids": [
+        "8l4ygp009s5s"
+      ],
+      "steps": [
+        {
+          "name": "investigating",
+          "label": "Investigating",
+          "state": "now"
+        },
+        {
+          "name": "identified",
+          "label": "Identified",
+          "state": "pending"
+        },
+        {
+          "name": "monitoring",
+          "label": "Monitoring",
+          "state": "pending"
+        },
+        {
+          "name": "resolved",
+          "label": "Resolved",
+          "state": "pending"
+        }
+      ],
+      "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating reports of degraded performance for Git Operations",
+          "created_at": "2026-11-03T20:57:14.523Z",
+          "time_label": "20:57 UTC"
+        }
+      ]
+    }
+  ],
+  "has_active_incident": true
 }
