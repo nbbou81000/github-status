@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-03T13:20:46.177Z",
+  "generated_at": "2026-11-03T13:30:58.902Z",
   "overall": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   },
   "components": [
     {
@@ -4177,8 +4177,8 @@
       "id": "pjmpxvq2cmr2",
       "name": "Copilot",
       "short_name": "Copilot",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-10-28",
@@ -4206,7 +4206,7 @@
         },
         {
           "date": "2026-11-03",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_30": [
@@ -4328,7 +4328,7 @@
         },
         {
           "date": "2026-11-03",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_90": [
@@ -4690,7 +4690,7 @@
         },
         {
           "date": "2026-11-03",
-          "class": "op"
+          "class": "deg"
         }
       ]
     },
@@ -5737,6 +5737,49 @@
       ]
     }
   ],
-  "incidents": [],
-  "has_active_incident": false
+  "incidents": [
+    {
+      "id": "rxlj89wpk7px",
+      "name": "Incident with API, Git, and Copilot requests",
+      "impact": "minor",
+      "status_class": "deg",
+      "created_at": "2026-11-03T13:25:19.620Z",
+      "started_label": "2026-11-03 · depuis 13:25 UTC",
+      "affected_component_ids": [
+        "pjmpxvq2cmr2"
+      ],
+      "steps": [
+        {
+          "name": "investigating",
+          "label": "Investigating",
+          "state": "now"
+        },
+        {
+          "name": "identified",
+          "label": "Identified",
+          "state": "pending"
+        },
+        {
+          "name": "monitoring",
+          "label": "Monitoring",
+          "state": "pending"
+        },
+        {
+          "name": "resolved",
+          "label": "Resolved",
+          "state": "pending"
+        }
+      ],
+      "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating reports of degraded performance for Copilot",
+          "created_at": "2026-11-03T13:25:19.719Z",
+          "time_label": "13:25 UTC"
+        }
+      ]
+    }
+  ],
+  "has_active_incident": true
 }
