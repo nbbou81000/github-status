@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T22:40:45.943Z",
+  "generated_at": "2026-11-03T22:50:47.881Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5737,77 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "13b6lyl8d7bz",
-      "name": "Incident with Git Operations",
-      "impact": "minor",
-      "status_class": "deg",
-      "created_at": "2026-11-03T20:57:14.438Z",
-      "started_label": "2026-11-03 · depuis 20:57 UTC",
-      "affected_component_ids": [
-        "8l4ygp009s5s"
-      ],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "done"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "done"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "now"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "monitoring",
-          "status_label": "Monitoring",
-          "body": "The degradation affecting Git Operations has been mitigated. We are monitoring to ensure stability.",
-          "created_at": "2026-11-03T22:37:36.779Z",
-          "time_label": "22:37 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are seeing significant improvement, though some Git Operations may be slow for a small set of customers. We are marking this as mitigated and will continue to monitor.",
-          "created_at": "2026-11-03T22:37:27.896Z",
-          "time_label": "22:37 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Our mitigation is rolled out and customers should start seeing improvements to Git Operations. We will continue to provide updates on mitigation status.",
-          "created_at": "2026-11-03T22:05:09.327Z",
-          "time_label": "22:05 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We have identified the issue impacting Git Operations and are beginning to roll out a mitigation. We will follow up with another update when we begin to see recovery.",
-          "created_at": "2026-11-03T21:37:34.716Z",
-          "time_label": "21:37 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of degraded performance for Git Operations",
-          "created_at": "2026-11-03T20:57:14.523Z",
-          "time_label": "20:57 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
