@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T10:40:45.031Z",
+  "generated_at": "2026-11-04T10:50:43.372Z",
   "overall": {
     "indicator": "minor",
     "description": "Minor Service Outage"
@@ -5774,6 +5774,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We're investigating elevated errors and intermittent failures affecting GitHub including Pull Requests, Git Operations, and Issues. We'll continue to keep users updated as we work toward mitigation.",
+          "created_at": "2026-11-04T10:38:49.825Z",
+          "time_label": "10:38 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
