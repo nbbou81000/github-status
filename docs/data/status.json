@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T17:50:38.298Z",
+  "generated_at": "2026-11-04T18:01:00.735Z",
   "overall": {
     "indicator": "minor",
     "description": "Minor Service Outage"
@@ -5771,6 +5771,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We have identified an issue with events that might trigger Actions. We have applied mitigations and are monitoring for recovery at this point. Customers may observe delayed status updates for their jobs.",
+          "created_at": "2026-11-04T17:53:11.120Z",
+          "time_label": "17:53 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
