@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-04T11:40:42.735Z",
+  "generated_at": "2026-11-04T11:50:42.429Z",
   "overall": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   },
   "components": [
     {
@@ -2614,8 +2614,8 @@
       "id": "br0l2tvcx85d",
       "name": "Actions",
       "short_name": "Actions",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-10-29",
@@ -5737,95 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "smtdswd1h2w4",
-      "name": "Incident with Pull Requests, Git Operations and Issues",
-      "impact": "major",
-      "status_class": "part",
-      "created_at": "2026-11-04T09:49:55.685Z",
-      "started_label": "2026-11-04 · depuis 09:49 UTC",
-      "affected_component_ids": [
-        "8l4ygp009s5s",
-        "brv1bkgrwx7q",
-        "kr09ddfgbfsf",
-        "hhtssxt0f5v2",
-        "br0l2tvcx85d"
-      ],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "now"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "pending"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "pending"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "The degradation affecting API Requests, Git Operations, Issues and Pull Requests has been mitigated. We are monitoring to ensure stability.",
-          "created_at": "2026-11-04T11:30:42.288Z",
-          "time_label": "11:30 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We're currently working on mitigating elevated errors and intermittent failures affecting GitHub, including Pull Requests, Git Operations, and Issues. Some requests may fail or be delayed while we work to restore service. We'll provide another update as more information becomes available.",
-          "created_at": "2026-11-04T11:17:52.023Z",
-          "time_label": "11:17 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "API Requests is experiencing degraded performance. We are continuing to investigate.",
-          "created_at": "2026-11-04T11:11:30.700Z",
-          "time_label": "11:11 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We're investigating elevated errors and intermittent failures affecting GitHub including Pull Requests, Git Operations, and Issues. We'll continue to keep users updated as we work toward mitigation.",
-          "created_at": "2026-11-04T10:38:49.825Z",
-          "time_label": "10:38 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Pull Requests is experiencing degraded availability. We are continuing to investigate.",
-          "created_at": "2026-11-04T09:53:38.851Z",
-          "time_label": "09:53 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Actions is experiencing degraded performance. We are continuing to investigate.",
-          "created_at": "2026-11-04T09:50:47.470Z",
-          "time_label": "09:50 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of degraded performance for Git Operations, Issues and Pull Requests",
-          "created_at": "2026-11-04T09:49:55.863Z",
-          "time_label": "09:49 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
