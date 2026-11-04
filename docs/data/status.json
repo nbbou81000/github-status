@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-04T09:30:57.441Z",
+  "generated_at": "2026-11-04T09:50:46.326Z",
   "overall": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   },
   "components": [
     {
       "id": "8l4ygp009s5s",
       "name": "Git Operations",
       "short_name": "Git Ops",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-10-29",
@@ -38,7 +38,7 @@
         },
         {
           "date": "2026-11-04",
-          "class": "op"
+          "class": "part"
         }
       ],
       "history_30": [
@@ -160,7 +160,7 @@
         },
         {
           "date": "2026-11-04",
-          "class": "op"
+          "class": "part"
         }
       ],
       "history_90": [
@@ -522,7 +522,7 @@
         },
         {
           "date": "2026-11-04",
-          "class": "op"
+          "class": "part"
         }
       ]
     },
@@ -1572,8 +1572,8 @@
       "id": "kr09ddfgbfsf",
       "name": "Issues",
       "short_name": "Issues",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-10-29",
@@ -1601,7 +1601,7 @@
         },
         {
           "date": "2026-11-04",
-          "class": "op"
+          "class": "part"
         }
       ],
       "history_30": [
@@ -1723,7 +1723,7 @@
         },
         {
           "date": "2026-11-04",
-          "class": "op"
+          "class": "part"
         }
       ],
       "history_90": [
@@ -2085,7 +2085,7 @@
         },
         {
           "date": "2026-11-04",
-          "class": "op"
+          "class": "part"
         }
       ]
     },
@@ -2093,8 +2093,8 @@
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
       "short_name": "Pull Req.",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-10-29",
@@ -2122,7 +2122,7 @@
         },
         {
           "date": "2026-11-04",
-          "class": "op"
+          "class": "part"
         }
       ],
       "history_30": [
@@ -2244,7 +2244,7 @@
         },
         {
           "date": "2026-11-04",
-          "class": "op"
+          "class": "part"
         }
       ],
       "history_90": [
@@ -2606,7 +2606,7 @@
         },
         {
           "date": "2026-11-04",
-          "class": "op"
+          "class": "part"
         }
       ]
     },
@@ -2839,7 +2839,7 @@
         },
         {
           "date": "2026-08-24",
-          "class": "deg"
+          "class": "op"
         },
         {
           "date": "2026-08-25",
@@ -5738,6 +5738,50 @@
     }
   ],
   "incidents": [
+    {
+      "id": "smtdswd1h2w4",
+      "name": "Incident with Pull Requests, Git Operations and Issues",
+      "impact": "major",
+      "status_class": "part",
+      "created_at": "2026-11-04T09:49:55.685Z",
+      "started_label": "2026-11-04 · depuis 09:49 UTC",
+      "affected_component_ids": [
+        "8l4ygp009s5s",
+        "kr09ddfgbfsf",
+        "hhtssxt0f5v2"
+      ],
+      "steps": [
+        {
+          "name": "investigating",
+          "label": "Investigating",
+          "state": "now"
+        },
+        {
+          "name": "identified",
+          "label": "Identified",
+          "state": "pending"
+        },
+        {
+          "name": "monitoring",
+          "label": "Monitoring",
+          "state": "pending"
+        },
+        {
+          "name": "resolved",
+          "label": "Resolved",
+          "state": "pending"
+        }
+      ],
+      "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating reports of degraded performance for Git Operations, Issues and Pull Requests",
+          "created_at": "2026-11-04T09:49:55.863Z",
+          "time_label": "09:49 UTC"
+        }
+      ]
+    },
     {
       "id": "tc28c0wzrnpz",
       "name": "Increased task-related errors for Copilot Mission Control",
