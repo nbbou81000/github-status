@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-04T11:10:48.467Z",
+  "generated_at": "2026-11-04T11:30:57.470Z",
   "overall": {
     "indicator": "minor",
-    "description": "Minor Service Outage"
+    "description": "Partially Degraded Service"
   },
   "components": [
     {
@@ -1051,8 +1051,8 @@
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
       "short_name": "API Req.",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-10-29",
@@ -1080,7 +1080,7 @@
         },
         {
           "date": "2026-11-04",
-          "class": "op"
+          "class": "part"
         }
       ],
       "history_30": [
@@ -1202,7 +1202,7 @@
         },
         {
           "date": "2026-11-04",
-          "class": "op"
+          "class": "part"
         }
       ],
       "history_90": [
@@ -1564,7 +1564,7 @@
         },
         {
           "date": "2026-11-04",
-          "class": "op"
+          "class": "part"
         }
       ]
     },
@@ -5747,6 +5747,7 @@
       "started_label": "2026-11-04 · depuis 09:49 UTC",
       "affected_component_ids": [
         "8l4ygp009s5s",
+        "brv1bkgrwx7q",
         "kr09ddfgbfsf",
         "hhtssxt0f5v2",
         "br0l2tvcx85d"
@@ -5774,6 +5775,20 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We're currently working on mitigating elevated errors and intermittent failures affecting GitHub, including Pull Requests, Git Operations, and Issues. Some requests may fail or be delayed while we work to restore service. We'll provide another update as more information becomes available.",
+          "created_at": "2026-11-04T11:17:52.023Z",
+          "time_label": "11:17 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "API Requests is experiencing degraded performance. We are continuing to investigate.",
+          "created_at": "2026-11-04T11:11:30.700Z",
+          "time_label": "11:11 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
