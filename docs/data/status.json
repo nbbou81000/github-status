@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T17:01:12.256Z",
+  "generated_at": "2026-11-04T17:10:39.432Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5737,100 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "xr3myzj7ms51",
-      "name": "Incident with Actions and Pages",
-      "impact": "major",
-      "status_class": "part",
-      "created_at": "2026-11-04T16:05:31.580Z",
-      "started_label": "2026-11-04 · depuis 16:05 UTC",
-      "affected_component_ids": [
-        "4230lsnqdsld",
-        "br0l2tvcx85d",
-        "vg70hn9s2tyj"
-      ],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "done"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "done"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "now"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "monitoring",
-          "status_label": "Monitoring",
-          "body": "The degradation has been mitigated. We are monitoring to ensure stability.",
-          "created_at": "2026-11-04T16:49:27.384Z",
-          "time_label": "16:49 UTC"
-        },
-        {
-          "status": "monitoring",
-          "status_label": "Monitoring",
-          "body": "The degradation affecting Actions and Pages has been mitigated. We are monitoring to ensure stability.",
-          "created_at": "2026-11-04T16:48:03.140Z",
-          "time_label": "16:48 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "The degradation affecting Webhooks has been mitigated. We are monitoring to ensure stability.",
-          "created_at": "2026-11-04T16:45:48.206Z",
-          "time_label": "16:45 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We have identified an issue with events that might trigger Actions. We have applied mitigations and are monitoring for recovery at this point. Customers may observe delayed status updates for their jobs.",
-          "created_at": "2026-11-04T16:34:45.421Z",
-          "time_label": "16:34 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Actions is experiencing degraded availability. We are continuing to investigate.",
-          "created_at": "2026-11-04T16:17:29.701Z",
-          "time_label": "16:17 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Webhooks is experiencing degraded performance. We are continuing to investigate.",
-          "created_at": "2026-11-04T16:12:55.586Z",
-          "time_label": "16:12 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of issues with Actions and Pages. We will continue to keep users updated on progress towards mitigation.",
-          "created_at": "2026-11-04T16:11:38.174Z",
-          "time_label": "16:11 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of degraded performance for Actions and Pages",
-          "created_at": "2026-11-04T16:05:31.696Z",
-          "time_label": "16:05 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
