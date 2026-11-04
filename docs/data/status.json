@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T18:10:43.479Z",
+  "generated_at": "2026-11-04T18:20:40.529Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5737,63 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "h02n9572mx9y",
-      "name": "Incident with Actions",
-      "impact": "major",
-      "status_class": "part",
-      "created_at": "2026-11-04T17:40:33.675Z",
-      "started_label": "2026-11-04 · depuis 17:40 UTC",
-      "affected_component_ids": [
-        "br0l2tvcx85d"
-      ],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "done"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "done"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "now"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "monitoring",
-          "status_label": "Monitoring",
-          "body": "The degradation affecting Actions has been mitigated. We are monitoring to ensure stability.",
-          "created_at": "2026-11-04T18:07:51.114Z",
-          "time_label": "18:07 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We have identified an issue with events that might trigger Actions. We have applied mitigations and are monitoring for recovery at this point. Customers may observe delayed status updates for their jobs.",
-          "created_at": "2026-11-04T17:53:11.120Z",
-          "time_label": "17:53 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of degraded availability for Actions",
-          "created_at": "2026-11-04T17:40:33.887Z",
-          "time_label": "17:40 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
