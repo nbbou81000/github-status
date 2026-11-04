@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-04T17:40:40.870Z",
+  "generated_at": "2026-11-04T17:47:56.045Z",
   "overall": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   },
   "components": [
     {
@@ -2614,8 +2614,8 @@
       "id": "br0l2tvcx85d",
       "name": "Actions",
       "short_name": "Actions",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "part",
+      "status_label": "Partiel",
       "history_7": [
         {
           "date": "2026-10-29",
@@ -2847,7 +2847,7 @@
         },
         {
           "date": "2026-08-26",
-          "class": "maj"
+          "class": "deg"
         },
         {
           "date": "2026-08-27",
@@ -3889,7 +3889,7 @@
         },
         {
           "date": "2026-08-26",
-          "class": "maj"
+          "class": "op"
         },
         {
           "date": "2026-08-27",
@@ -5737,6 +5737,49 @@
       ]
     }
   ],
-  "incidents": [],
-  "has_active_incident": false
+  "incidents": [
+    {
+      "id": "h02n9572mx9y",
+      "name": "Incident with Actions",
+      "impact": "major",
+      "status_class": "part",
+      "created_at": "2026-11-04T17:40:33.675Z",
+      "started_label": "2026-11-04 · depuis 17:40 UTC",
+      "affected_component_ids": [
+        "br0l2tvcx85d"
+      ],
+      "steps": [
+        {
+          "name": "investigating",
+          "label": "Investigating",
+          "state": "now"
+        },
+        {
+          "name": "identified",
+          "label": "Identified",
+          "state": "pending"
+        },
+        {
+          "name": "monitoring",
+          "label": "Monitoring",
+          "state": "pending"
+        },
+        {
+          "name": "resolved",
+          "label": "Resolved",
+          "state": "pending"
+        }
+      ],
+      "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating reports of degraded availability for Actions",
+          "created_at": "2026-11-04T17:40:33.887Z",
+          "time_label": "17:40 UTC"
+        }
+      ]
+    }
+  ],
+  "has_active_incident": true
 }
