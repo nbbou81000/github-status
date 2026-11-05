@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-05T23:30:49.468Z",
+  "generated_at": "2026-11-05T23:40:36.766Z",
   "overall": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   },
   "components": [
     {
@@ -2614,8 +2614,8 @@
       "id": "br0l2tvcx85d",
       "name": "Actions",
       "short_name": "Actions",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-10-30",
@@ -3656,8 +3656,8 @@
       "id": "vg70hn9s2tyj",
       "name": "Pages",
       "short_name": "Pages",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-10-30",
@@ -3685,7 +3685,7 @@
         },
         {
           "date": "2026-11-05",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_30": [
@@ -3807,7 +3807,7 @@
         },
         {
           "date": "2026-11-05",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_90": [
@@ -4169,7 +4169,7 @@
         },
         {
           "date": "2026-11-05",
-          "class": "op"
+          "class": "deg"
         }
       ]
     },
@@ -5452,7 +5452,7 @@
         },
         {
           "date": "2026-08-27",
-          "class": "maj"
+          "class": "op"
         },
         {
           "date": "2026-08-28",
@@ -5737,6 +5737,57 @@
       ]
     }
   ],
-  "incidents": [],
-  "has_active_incident": false
+  "incidents": [
+    {
+      "id": "pfbmpxxfq1cy",
+      "name": "Degraded performance for multiple GitHub services",
+      "impact": "minor",
+      "status_class": "deg",
+      "created_at": "2026-11-05T23:36:06.204Z",
+      "started_label": "2026-11-05 · depuis 23:36 UTC",
+      "affected_component_ids": [
+        "br0l2tvcx85d",
+        "vg70hn9s2tyj"
+      ],
+      "steps": [
+        {
+          "name": "investigating",
+          "label": "Investigating",
+          "state": "now"
+        },
+        {
+          "name": "identified",
+          "label": "Identified",
+          "state": "pending"
+        },
+        {
+          "name": "monitoring",
+          "label": "Monitoring",
+          "state": "pending"
+        },
+        {
+          "name": "resolved",
+          "label": "Resolved",
+          "state": "pending"
+        }
+      ],
+      "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We're investigating degraded performance and errors affecting several GitHub services, including Git operations, Issues, Actions, and API access. Some users may see failed requests or slow responses. We'll post another update by 00:05 UTC.",
+          "created_at": "2026-11-05T23:36:51.582Z",
+          "time_label": "23:36 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating reports of degraded performance for Actions and Pages",
+          "created_at": "2026-11-05T23:36:06.333Z",
+          "time_label": "23:36 UTC"
+        }
+      ]
+    }
+  ],
+  "has_active_incident": true
 }
