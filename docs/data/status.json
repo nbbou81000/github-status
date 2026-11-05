@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T17:40:38.853Z",
+  "generated_at": "2026-11-05T17:50:41.080Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5737,63 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "t89g2q1800fr",
-      "name": "Incident with Actions",
-      "impact": "minor",
-      "status_class": "deg",
-      "created_at": "2026-11-05T16:50:11.086Z",
-      "started_label": "2026-11-05 · depuis 16:50 UTC",
-      "affected_component_ids": [
-        "br0l2tvcx85d"
-      ],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "done"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "done"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "now"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "monitoring",
-          "status_label": "Monitoring",
-          "body": "The degradation affecting Actions has been mitigated. We are monitoring to ensure stability.",
-          "created_at": "2026-11-05T17:04:46.807Z",
-          "time_label": "17:04 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Some GitHub Actions workflow runs may experience delays or errors when starting. We’re investigating and preparing a mitigation.",
-          "created_at": "2026-11-05T16:52:52.693Z",
-          "time_label": "16:52 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of degraded performance for Actions",
-          "created_at": "2026-11-05T16:50:11.189Z",
-          "time_label": "16:50 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
