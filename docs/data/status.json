@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T00:20:36.488Z",
+  "generated_at": "2026-11-06T00:30:49.949Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5737,94 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "pfbmpxxfq1cy",
-      "name": "Degraded performance for multiple GitHub services",
-      "impact": "minor",
-      "status_class": "deg",
-      "created_at": "2026-11-05T23:36:06.204Z",
-      "started_label": "2026-11-05 · depuis 23:36 UTC",
-      "affected_component_ids": [
-        "8l4ygp009s5s",
-        "kr09ddfgbfsf",
-        "br0l2tvcx85d",
-        "vg70hn9s2tyj"
-      ],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "done"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "done"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "now"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "monitoring",
-          "status_label": "Monitoring",
-          "body": "This incident has been resolved. All affected services, including Git operations, Issues, Actions, and API access, have recovered and remained stable. Thank you for your patience. We'll share more details in our availability report.",
-          "created_at": "2026-11-06T00:19:59.777Z",
-          "time_label": "00:19 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Git Operations is operating normally.",
-          "created_at": "2026-11-06T00:19:21.825Z",
-          "time_label": "00:19 UTC"
-        },
-        {
-          "status": "monitoring",
-          "status_label": "Monitoring",
-          "body": "We've applied a mitigation and are seeing recovery across affected services, including Git operations, Issues, Actions, and API access. We're monitoring to confirm stability and will post another update by 00:35 UTC.",
-          "created_at": "2026-11-06T00:06:28.065Z",
-          "time_label": "00:06 UTC"
-        },
-        {
-          "status": "monitoring",
-          "status_label": "Monitoring",
-          "body": "The degradation affecting Actions, Issues and Pages has been mitigated. We are monitoring to ensure stability.",
-          "created_at": "2026-11-06T00:06:11.775Z",
-          "time_label": "00:06 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Issues is experiencing degraded performance. We are continuing to investigate.",
-          "created_at": "2026-11-05T23:58:28.508Z",
-          "time_label": "23:58 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We're investigating degraded performance and errors affecting several GitHub services, including Git operations, Issues, Actions, and API access. Some users may see failed requests or slow responses. We'll post another update by 00:05 UTC.",
-          "created_at": "2026-11-05T23:36:51.582Z",
-          "time_label": "23:36 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of degraded performance for Actions and Pages",
-          "created_at": "2026-11-05T23:36:06.333Z",
-          "time_label": "23:36 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
