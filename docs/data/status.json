@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T12:30:51.155Z",
+  "generated_at": "2026-11-08T12:40:38.346Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5737,84 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "pyynvrm1vskw",
-      "name": "Increase in timeouts for some unauthenticated users",
-      "impact": "minor",
-      "status_class": "deg",
-      "created_at": "2026-11-08T10:36:05.481Z",
-      "started_label": "2026-11-08 · depuis 10:36 UTC",
-      "affected_component_ids": [
-        "brv1bkgrwx7q"
-      ],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "done"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "done"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "now"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "monitoring",
-          "status_label": "Monitoring",
-          "body": "The degradation has been mitigated. We are monitoring to ensure stability.",
-          "created_at": "2026-11-08T12:29:30.591Z",
-          "time_label": "12:29 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "The degradation affecting API Requests has been mitigated. We are monitoring to ensure stability.",
-          "created_at": "2026-11-08T11:56:20.769Z",
-          "time_label": "11:56 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We've identified a problematic component and are working to redeploy it.",
-          "created_at": "2026-11-08T11:50:49.605Z",
-          "time_label": "11:50 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "API Requests is experiencing degraded performance. We are continuing to investigate.",
-          "created_at": "2026-11-08T11:20:57.678Z",
-          "time_label": "11:20 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are continuing to investigate degraded performance primarily for unauthenticated users.",
-          "created_at": "2026-11-08T11:16:19.336Z",
-          "time_label": "11:16 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of impacted performance for some GitHub services.",
-          "created_at": "2026-11-08T10:36:05.526Z",
-          "time_label": "10:36 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
