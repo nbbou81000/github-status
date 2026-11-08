@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-08T11:20:39.020Z",
+  "generated_at": "2026-11-08T11:30:54.246Z",
   "overall": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   },
   "components": [
     {
@@ -1051,8 +1051,8 @@
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
       "short_name": "API Req.",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-11-02",
@@ -1080,7 +1080,7 @@
         },
         {
           "date": "2026-11-08",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_30": [
@@ -1202,7 +1202,7 @@
         },
         {
           "date": "2026-11-08",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_90": [
@@ -1564,7 +1564,7 @@
         },
         {
           "date": "2026-11-08",
-          "class": "op"
+          "class": "deg"
         }
       ]
     },
@@ -5745,7 +5745,9 @@
       "status_class": "deg",
       "created_at": "2026-11-08T10:36:05.481Z",
       "started_label": "2026-11-08 · depuis 10:36 UTC",
-      "affected_component_ids": [],
+      "affected_component_ids": [
+        "brv1bkgrwx7q"
+      ],
       "steps": [
         {
           "name": "investigating",
@@ -5769,6 +5771,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "API Requests is experiencing degraded performance. We are continuing to investigate.",
+          "created_at": "2026-11-08T11:20:57.678Z",
+          "time_label": "11:20 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
