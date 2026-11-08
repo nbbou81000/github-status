@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-08T11:50:36.660Z",
+  "generated_at": "2026-11-08T12:01:01.055Z",
   "overall": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   },
   "components": [
     {
@@ -1051,8 +1051,8 @@
       "id": "brv1bkgrwx7q",
       "name": "API Requests",
       "short_name": "API Req.",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-11-02",
@@ -5771,6 +5771,20 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "The degradation affecting API Requests has been mitigated. We are monitoring to ensure stability.",
+          "created_at": "2026-11-08T11:56:20.769Z",
+          "time_label": "11:56 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We've identified a problematic component and are working to redeploy it.",
+          "created_at": "2026-11-08T11:50:49.605Z",
+          "time_label": "11:50 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
