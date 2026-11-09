@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T07:01:05.247Z",
+  "generated_at": "2026-11-09T07:10:39.972Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5769,6 +5769,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "monitoring",
+          "status_label": "Monitoring",
+          "body": "The problem with anonymous traffic receiving 504 status codes has been mitigated. We are continuing to observe for an abundance of caution.",
+          "created_at": "2026-11-09T07:03:38.015Z",
+          "time_label": "07:03 UTC"
+        },
         {
           "status": "monitoring",
           "status_label": "Monitoring",
