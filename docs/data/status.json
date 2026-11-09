@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T11:50:38.503Z",
+  "generated_at": "2026-11-09T12:01:02.973Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5737,92 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "xxb3l2bm76dr",
-      "name": "Incident with Webhooks and Actions",
-      "impact": "major",
-      "status_class": "part",
-      "created_at": "2026-11-09T10:00:35.232Z",
-      "started_label": "2026-11-09 · depuis 10:00 UTC",
-      "affected_component_ids": [
-        "4230lsnqdsld",
-        "br0l2tvcx85d"
-      ],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "done"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "done"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "now"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "monitoring",
-          "status_label": "Monitoring",
-          "body": "The degradation affecting Webhooks has been mitigated. We are monitoring to ensure stability.",
-          "created_at": "2026-11-09T11:45:07.476Z",
-          "time_label": "11:45 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Webhooks is experiencing degraded performance. We are continuing to investigate.",
-          "created_at": "2026-11-09T11:42:04.835Z",
-          "time_label": "11:42 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Webhooks is experiencing degraded availability. We are continuing to investigate.",
-          "created_at": "2026-11-09T11:17:28.545Z",
-          "time_label": "11:17 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "The degradation affecting Actions has been mitigated. We are monitoring to ensure stability.",
-          "created_at": "2026-11-09T11:06:35.830Z",
-          "time_label": "11:06 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We've applied a mitigation and are monitoring for recovery.",
-          "created_at": "2026-11-09T10:47:25.350Z",
-          "time_label": "10:47 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We're investigating delays in Actions runs start times and webhook deliveries.",
-          "created_at": "2026-11-09T10:28:19.735Z",
-          "time_label": "10:28 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of degraded performance for Actions and Webhooks",
-          "created_at": "2026-11-09T10:00:35.648Z",
-          "time_label": "10:00 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
