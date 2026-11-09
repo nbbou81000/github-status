@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T07:40:48.210Z",
+  "generated_at": "2026-11-09T07:50:48.011Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5750,17 +5750,17 @@
         {
           "name": "investigating",
           "label": "Investigating",
-          "state": "done"
+          "state": "now"
         },
         {
           "name": "identified",
           "label": "Identified",
-          "state": "done"
+          "state": "pending"
         },
         {
           "name": "monitoring",
           "label": "Monitoring",
-          "state": "now"
+          "state": "pending"
         },
         {
           "name": "resolved",
@@ -5769,6 +5769,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We have observed a repeated increase in 504 errors for anonymous and unauthenticated traffic, including users who are not logged in and release downloads. We are continuing to investigate and  apply mitigations.",
+          "created_at": "2026-11-09T07:43:15.424Z",
+          "time_label": "07:43 UTC"
+        },
         {
           "status": "monitoring",
           "status_label": "Monitoring",
