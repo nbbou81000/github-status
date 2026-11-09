@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T18:50:41.681Z",
+  "generated_at": "2026-11-09T19:01:03.995Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5737,86 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "tp8cghg7tlc4",
-      "name": "Incident with Actions and Checks API",
-      "impact": "critical",
-      "status_class": "maj",
-      "created_at": "2026-11-09T18:12:37.242Z",
-      "started_label": "2026-11-09 · depuis 18:12 UTC",
-      "affected_component_ids": [
-        "4230lsnqdsld",
-        "br0l2tvcx85d",
-        "vg70hn9s2tyj"
-      ],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "done"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "done"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "now"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "monitoring",
-          "status_label": "Monitoring",
-          "body": "The degradation affecting Actions, Pages and Webhooks has been mitigated. We are monitoring to ensure stability.",
-          "created_at": "2026-11-09T18:43:24.557Z",
-          "time_label": "18:43 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Pages is experiencing degraded performance. We are continuing to investigate.",
-          "created_at": "2026-11-09T18:30:17.563Z",
-          "time_label": "18:30 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We're investigating elevated errors affecting GitHub Actions and the Checks API. We'll share another update as we learn more.",
-          "created_at": "2026-11-09T18:24:13.978Z",
-          "time_label": "18:24 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Webhooks is experiencing degraded performance. We are continuing to investigate.",
-          "created_at": "2026-11-09T18:23:13.543Z",
-          "time_label": "18:23 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Actions is experiencing degraded availability. We are continuing to investigate.",
-          "created_at": "2026-11-09T18:14:58.589Z",
-          "time_label": "18:14 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of degraded availability for Actions",
-          "created_at": "2026-11-09T18:12:37.331Z",
-          "time_label": "18:12 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
