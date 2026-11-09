@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T09:01:08.907Z",
+  "generated_at": "2026-11-09T09:10:38.778Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5737,89 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "c9px7cw2ghrs",
-      "name": "Increased timeouts due to surge in anonymous users",
-      "impact": "minor",
-      "status_class": "deg",
-      "created_at": "2026-11-09T05:59:07.851Z",
-      "started_label": "2026-11-09 · depuis 05:59 UTC",
-      "affected_component_ids": [],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "now"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "pending"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "pending"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Error rates have declined again, and we’re preparing targeted traffic controls while monitoring for a recurrence. Logged-in users and authenticated requests have not been affected.",
-          "created_at": "2026-11-09T08:47:55.788Z",
-          "time_label": "08:47 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are continuing to observe high rates of 504 errors for anonymous requests. We are continuing to work on mitigation. Logged-in users and authenticated requests are unaffected.",
-          "created_at": "2026-11-09T08:16:25.172Z",
-          "time_label": "08:16 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We have observed a repeated increase in 504 errors for anonymous and unauthenticated traffic, including users who are not logged in and release downloads. We are continuing to investigate and  apply mitigations.",
-          "created_at": "2026-11-09T07:43:15.424Z",
-          "time_label": "07:43 UTC"
-        },
-        {
-          "status": "monitoring",
-          "status_label": "Monitoring",
-          "body": "The problem with anonymous traffic receiving 504 status codes has been mitigated. We are continuing to observe for an abundance of caution.",
-          "created_at": "2026-11-09T07:03:38.015Z",
-          "time_label": "07:03 UTC"
-        },
-        {
-          "status": "monitoring",
-          "status_label": "Monitoring",
-          "body": "The degradation has been mitigated. We are monitoring to ensure stability.",
-          "created_at": "2026-11-09T06:51:26.463Z",
-          "time_label": "06:51 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are debugging a spike in anonymous traffic. Some users who are not logged in may see errors on the site. CI jobs and release downloads may fail with a 504 Gateway Timeout status if they make anonymous calls.",
-          "created_at": "2026-11-09T06:30:44.187Z",
-          "time_label": "06:30 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of impacted performance for some GitHub services.",
-          "created_at": "2026-11-09T05:59:07.907Z",
-          "time_label": "05:59 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
