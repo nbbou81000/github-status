@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-11T21:01:03.329Z",
+  "generated_at": "2026-11-11T21:10:40.643Z",
   "overall": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   },
   "components": [
     {
@@ -530,8 +530,8 @@
       "id": "4230lsnqdsld",
       "name": "Webhooks",
       "short_name": "Webhooks",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-11-05",
@@ -2614,8 +2614,8 @@
       "id": "br0l2tvcx85d",
       "name": "Actions",
       "short_name": "Actions",
-      "status_class": "maj",
-      "status_label": "Majeur",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-11-05",
@@ -3656,8 +3656,8 @@
       "id": "vg70hn9s2tyj",
       "name": "Pages",
       "short_name": "Pages",
-      "status_class": "maj",
-      "status_label": "Majeur",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-11-05",
@@ -4177,8 +4177,8 @@
       "id": "pjmpxvq2cmr2",
       "name": "Copilot",
       "short_name": "Copilot",
-      "status_class": "maj",
-      "status_label": "Majeur",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-11-05",
@@ -5755,17 +5755,17 @@
         {
           "name": "investigating",
           "label": "Investigating",
-          "state": "now"
+          "state": "done"
         },
         {
           "name": "identified",
           "label": "Identified",
-          "state": "pending"
+          "state": "done"
         },
         {
           "name": "monitoring",
           "label": "Monitoring",
-          "state": "pending"
+          "state": "now"
         },
         {
           "name": "resolved",
@@ -5774,6 +5774,20 @@
         }
       ],
       "updates": [
+        {
+          "status": "monitoring",
+          "status_label": "Monitoring",
+          "body": "We’re seeing recovery across all services and continuing to monitor. The backlog of Actions jobs are being processed. We’ll update when we see full recovery.",
+          "created_at": "2026-11-11T21:07:26.447Z",
+          "time_label": "21:07 UTC"
+        },
+        {
+          "status": "monitoring",
+          "status_label": "Monitoring",
+          "body": "The degradation affecting Actions, Copilot, Pages and Webhooks has been mitigated. We are monitoring to ensure stability.",
+          "created_at": "2026-11-11T21:07:24.649Z",
+          "time_label": "21:07 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
