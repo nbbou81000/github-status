@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T20:57:57.767Z",
+  "generated_at": "2026-11-11T21:01:03.329Z",
   "overall": {
     "indicator": "major",
     "description": "Partial System Outage"
@@ -4177,8 +4177,8 @@
       "id": "pjmpxvq2cmr2",
       "name": "Copilot",
       "short_name": "Copilot",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "maj",
+      "status_label": "Majeur",
       "history_7": [
         {
           "date": "2026-11-05",
@@ -5740,7 +5740,7 @@
   "incidents": [
     {
       "id": "dvy0t3mvh1lg",
-      "name": "Incident with Webhooks",
+      "name": "Impact across multiple GitHub products including Actions, Pages, and Copilot products.",
       "impact": "critical",
       "status_class": "maj",
       "created_at": "2026-11-11T20:48:12.265Z",
