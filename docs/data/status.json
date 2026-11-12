@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T21:01:02.767Z",
+  "generated_at": "2026-11-12T21:10:38.466Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5769,6 +5769,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "monitoring",
+          "status_label": "Monitoring",
+          "body": "We’re monitoring an email disruption related to an upstream provider degradation. Users whose email is hosted by the affected provider may experience delays in message delivery. Email service for users on other providers is currently operating normally. We’ll share updates as we learn more.",
+          "created_at": "2026-11-12T21:02:56.993Z",
+          "time_label": "21:02 UTC"
+        },
         {
           "status": "monitoring",
           "status_label": "Monitoring",
