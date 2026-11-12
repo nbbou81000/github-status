@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T19:40:47.422Z",
+  "generated_at": "2026-11-12T19:50:40.032Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5769,6 +5769,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are seeing disruptions with email delivery for account sign-in and new account sign up. We are investigating.",
+          "created_at": "2026-11-12T19:43:01.972Z",
+          "time_label": "19:43 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
