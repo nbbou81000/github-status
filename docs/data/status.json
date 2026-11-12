@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T18:40:40.787Z",
+  "generated_at": "2026-11-12T18:50:39.525Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -559,7 +559,7 @@
         },
         {
           "date": "2026-11-12",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_30": [
@@ -681,7 +681,7 @@
         },
         {
           "date": "2026-11-12",
-          "class": "op"
+          "class": "deg"
         }
       ],
       "history_90": [
@@ -1043,7 +1043,7 @@
         },
         {
           "date": "2026-11-12",
-          "class": "op"
+          "class": "deg"
         }
       ]
     },
@@ -5500,7 +5500,7 @@
         },
         {
           "date": "2026-09-15",
-          "class": "deg"
+          "class": "op"
         },
         {
           "date": "2026-09-16",
@@ -5737,6 +5737,49 @@
       ]
     }
   ],
-  "incidents": [],
-  "has_active_incident": false
+  "incidents": [
+    {
+      "id": "gl7yhd7jx00v",
+      "name": "Incident with Webhooks API",
+      "impact": "minor",
+      "status_class": "deg",
+      "created_at": "2026-11-12T18:43:13.817Z",
+      "started_label": "2026-11-12 · depuis 18:43 UTC",
+      "affected_component_ids": [
+        "4230lsnqdsld"
+      ],
+      "steps": [
+        {
+          "name": "investigating",
+          "label": "Investigating",
+          "state": "now"
+        },
+        {
+          "name": "identified",
+          "label": "Identified",
+          "state": "pending"
+        },
+        {
+          "name": "monitoring",
+          "label": "Monitoring",
+          "state": "pending"
+        },
+        {
+          "name": "resolved",
+          "label": "Resolved",
+          "state": "pending"
+        }
+      ],
+      "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating reports of degraded performance for Webhooks",
+          "created_at": "2026-11-12T18:43:13.908Z",
+          "time_label": "18:43 UTC"
+        }
+      ]
+    }
+  ],
+  "has_active_incident": true
 }
