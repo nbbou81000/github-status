@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T19:31:01.990Z",
+  "generated_at": "2026-11-12T19:40:47.422Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5739,30 +5739,28 @@
   ],
   "incidents": [
     {
-      "id": "gl7yhd7jx00v",
-      "name": "Incident with Webhooks API",
+      "id": "nwbjzl7nfrc2",
+      "name": "Disruption with Sign-in and Sign-up",
       "impact": "minor",
       "status_class": "deg",
-      "created_at": "2026-11-12T18:43:13.817Z",
-      "started_label": "2026-11-12 · depuis 18:43 UTC",
-      "affected_component_ids": [
-        "4230lsnqdsld"
-      ],
+      "created_at": "2026-11-12T19:36:45.563Z",
+      "started_label": "2026-11-12 · depuis 19:36 UTC",
+      "affected_component_ids": [],
       "steps": [
         {
           "name": "investigating",
           "label": "Investigating",
-          "state": "done"
+          "state": "now"
         },
         {
           "name": "identified",
           "label": "Identified",
-          "state": "done"
+          "state": "pending"
         },
         {
           "name": "monitoring",
           "label": "Monitoring",
-          "state": "now"
+          "state": "pending"
         },
         {
           "name": "resolved",
@@ -5772,32 +5770,11 @@
       ],
       "updates": [
         {
-          "status": "monitoring",
-          "status_label": "Monitoring",
-          "body": "The degradation affecting Webhooks has been mitigated. We are monitoring to ensure stability.",
-          "created_at": "2026-11-12T19:20:14.173Z",
-          "time_label": "19:20 UTC"
-        },
-        {
           "status": "investigating",
           "status_label": "Investigating",
-          "body": "Webhooks API has traffic has recovered. We will continue to monitor for stability.",
-          "created_at": "2026-11-12T19:20:08.126Z",
-          "time_label": "19:20 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Webhooks API is experiencing timeouts and errors impacting about 1% of customer traffic. We are working through possible mitigation strategies.",
-          "created_at": "2026-11-12T18:52:18.168Z",
-          "time_label": "18:52 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of degraded performance for Webhooks",
-          "created_at": "2026-11-12T18:43:13.908Z",
-          "time_label": "18:43 UTC"
+          "body": "We are investigating reports of impacted performance for some GitHub services.",
+          "created_at": "2026-11-12T19:36:45.625Z",
+          "time_label": "19:36 UTC"
         }
       ]
     }
