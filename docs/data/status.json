@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T20:40:38.855Z",
+  "generated_at": "2026-11-12T20:50:38.764Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5740,7 +5740,7 @@
   "incidents": [
     {
       "id": "nwbjzl7nfrc2",
-      "name": "Disruption with Sign-in and Sign-up",
+      "name": "Disruption with Email Delivery",
       "impact": "minor",
       "status_class": "deg",
       "created_at": "2026-11-12T19:36:45.563Z",
