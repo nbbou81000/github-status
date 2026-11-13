@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-13T16:01:07.784Z",
+  "generated_at": "2026-11-13T16:10:41.161Z",
   "overall": {
     "indicator": "minor",
-    "description": "Minor Service Outage"
+    "description": "Partially Degraded Service"
   },
   "components": [
     {
@@ -2093,8 +2093,8 @@
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
       "short_name": "Pull Req.",
-      "status_class": "part",
-      "status_label": "Partiel",
+      "status_class": "deg",
+      "status_label": "Dégradé",
       "history_7": [
         {
           "date": "2026-11-07",
@@ -5771,6 +5771,13 @@
         }
       ],
       "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "Pull Requests is experiencing degraded performance. We are continuing to investigate.",
+          "created_at": "2026-11-13T16:09:16.825Z",
+          "time_label": "16:09 UTC"
+        },
         {
           "status": "investigating",
           "status_label": "Investigating",
