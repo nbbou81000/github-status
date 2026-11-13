@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-13T21:20:49.045Z",
+  "generated_at": "2026-11-13T21:30:59.501Z",
   "overall": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   },
   "components": [
     {
@@ -5219,8 +5219,8 @@
       "id": "cnnb39dkkk82",
       "name": "Copilot AI Model Providers",
       "short_name": "Copilot Models",
-      "status_class": "deg",
-      "status_label": "Dégradé",
+      "status_class": "op",
+      "status_label": "OK",
       "history_7": [
         {
           "date": "2026-11-07",
@@ -5737,70 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "51drrqvsv66g",
-      "name": "Copilot experiencing degraded model availability for some GPT models",
-      "impact": "minor",
-      "status_class": "deg",
-      "created_at": "2026-11-13T20:13:51.325Z",
-      "started_label": "2026-11-13 · depuis 20:13 UTC",
-      "affected_component_ids": [
-        "cnnb39dkkk82"
-      ],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "now"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "pending"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "pending"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "The upstream provider has made mitigations and we are seeing the affected models begin to recover.",
-          "created_at": "2026-11-13T21:17:48.112Z",
-          "time_label": "21:17 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are in contact with the upstream provider and monitoring as they work towards resolution. For customers who are impacted we recommend choosing another model or selecting ‘Auto’ to continue using Copilot.",
-          "created_at": "2026-11-13T20:47:09.681Z",
-          "time_label": "20:47 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are experiencing degraded availability for gpt-5.6-sol-fast, gpt-5.6-sol, gpt-6.1-terra, and gpt-6-luna in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to resolve the issue, we recommend choosing another model or selecting 'Auto' to continue using Copilot.",
-          "created_at": "2026-11-13T20:14:07.400Z",
-          "time_label": "20:14 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of degraded performance for Copilot AI Model Providers",
-          "created_at": "2026-11-13T20:13:51.431Z",
-          "time_label": "20:13 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
