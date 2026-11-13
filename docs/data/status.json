@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T18:20:39.486Z",
+  "generated_at": "2026-11-13T18:30:53.223Z",
   "overall": {
     "indicator": "none",
     "description": "All Systems Operational"
@@ -5737,91 +5737,6 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "1xzmt89vv61l",
-      "name": "Incident with Pull Requests",
-      "impact": "major",
-      "status_class": "part",
-      "created_at": "2026-11-13T15:47:12.290Z",
-      "started_label": "2026-11-13 · depuis 15:47 UTC",
-      "affected_component_ids": [
-        "hhtssxt0f5v2"
-      ],
-      "steps": [
-        {
-          "name": "investigating",
-          "label": "Investigating",
-          "state": "done"
-        },
-        {
-          "name": "identified",
-          "label": "Identified",
-          "state": "done"
-        },
-        {
-          "name": "monitoring",
-          "label": "Monitoring",
-          "state": "now"
-        },
-        {
-          "name": "resolved",
-          "label": "Resolved",
-          "state": "pending"
-        }
-      ],
-      "updates": [
-        {
-          "status": "monitoring",
-          "status_label": "Monitoring",
-          "body": "We continue to monitor the stability of merge requests.",
-          "created_at": "2026-11-13T17:46:11.831Z",
-          "time_label": "17:46 UTC"
-        },
-        {
-          "status": "monitoring",
-          "status_label": "Monitoring",
-          "body": "The degradation affecting Pull Requests has been mitigated. We are monitoring to ensure stability.",
-          "created_at": "2026-11-13T17:28:01.438Z",
-          "time_label": "17:28 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We’re continuing to investigate and monitor ~1% of merge requests timing out.",
-          "created_at": "2026-11-13T16:52:15.314Z",
-          "time_label": "16:52 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We’ve taken mitigating action to resolve the problem of merge requests timing out. This issue initially impacted 3% of requests and is now down to less than 1%. We continue to monitor recovery.",
-          "created_at": "2026-11-13T16:12:26.065Z",
-          "time_label": "16:12 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "Pull Requests is experiencing degraded performance. We are continuing to investigate.",
-          "created_at": "2026-11-13T16:09:16.825Z",
-          "time_label": "16:09 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We’re investigating an issue with Pull Requests where some attempts to merge are timing out.",
-          "created_at": "2026-11-13T15:49:36.444Z",
-          "time_label": "15:49 UTC"
-        },
-        {
-          "status": "investigating",
-          "status_label": "Investigating",
-          "body": "We are investigating reports of degraded availability for Pull Requests",
-          "created_at": "2026-11-13T15:47:12.391Z",
-          "time_label": "15:47 UTC"
-        }
-      ]
-    }
-  ],
-  "has_active_incident": true
+  "incidents": [],
+  "has_active_incident": false
 }
