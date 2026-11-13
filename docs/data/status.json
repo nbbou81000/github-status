@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-13T15:41:30.315Z",
+  "generated_at": "2026-11-13T15:50:46.305Z",
   "overall": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   },
   "components": [
     {
@@ -2093,8 +2093,8 @@
       "id": "hhtssxt0f5v2",
       "name": "Pull Requests",
       "short_name": "Pull Req.",
-      "status_class": "op",
-      "status_label": "OK",
+      "status_class": "part",
+      "status_label": "Partiel",
       "history_7": [
         {
           "date": "2026-11-07",
@@ -2122,7 +2122,7 @@
         },
         {
           "date": "2026-11-13",
-          "class": "op"
+          "class": "part"
         }
       ],
       "history_30": [
@@ -2244,7 +2244,7 @@
         },
         {
           "date": "2026-11-13",
-          "class": "op"
+          "class": "part"
         }
       ],
       "history_90": [
@@ -2606,7 +2606,7 @@
         },
         {
           "date": "2026-11-13",
-          "class": "op"
+          "class": "part"
         }
       ]
     },
@@ -5500,7 +5500,7 @@
         },
         {
           "date": "2026-09-16",
-          "class": "part"
+          "class": "op"
         },
         {
           "date": "2026-09-17",
@@ -5737,6 +5737,56 @@
       ]
     }
   ],
-  "incidents": [],
-  "has_active_incident": false
+  "incidents": [
+    {
+      "id": "1xzmt89vv61l",
+      "name": "Incident with Pull Requests",
+      "impact": "major",
+      "status_class": "part",
+      "created_at": "2026-11-13T15:47:12.290Z",
+      "started_label": "2026-11-13 · depuis 15:47 UTC",
+      "affected_component_ids": [
+        "hhtssxt0f5v2"
+      ],
+      "steps": [
+        {
+          "name": "investigating",
+          "label": "Investigating",
+          "state": "now"
+        },
+        {
+          "name": "identified",
+          "label": "Identified",
+          "state": "pending"
+        },
+        {
+          "name": "monitoring",
+          "label": "Monitoring",
+          "state": "pending"
+        },
+        {
+          "name": "resolved",
+          "label": "Resolved",
+          "state": "pending"
+        }
+      ],
+      "updates": [
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We’re investigating an issue with Pull Requests where some attempts to merge are timing out.",
+          "created_at": "2026-11-13T15:49:36.444Z",
+          "time_label": "15:49 UTC"
+        },
+        {
+          "status": "investigating",
+          "status_label": "Investigating",
+          "body": "We are investigating reports of degraded availability for Pull Requests",
+          "created_at": "2026-11-13T15:47:12.391Z",
+          "time_label": "15:47 UTC"
+        }
+      ]
+    }
+  ],
+  "has_active_incident": true
 }
